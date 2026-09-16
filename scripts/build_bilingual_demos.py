@@ -1,4 +1,1052 @@
-<!DOCTYPE html>
+import os
+import shutil
+
+WORKSPACE_DIR = r"c:\Users\maat\Documents\antigravity\wonderful-raman"
+DEMOS_DIR = os.path.join(WORKSPACE_DIR, "demos")
+DESKTOP_DIR_ZENODO = r"C:\Users\maat\Desktop\ZENODO_GUNCEL_DOSYALAR"
+DESKTOP_DIR_ESKI = r"C:\Users\maat\Desktop\eski_rapor"
+
+# =========================================================================
+# 1. BUILD BILINGUAL quadrant_visualizer.html
+# =========================================================================
+qv_html = """<!DOCTYPE html>
+<html lang="tr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>128x128 4-Quadrant Fraktal Nöron Deney Laboratuvarı</title>
+  <style>
+    /* =========================================================
+       THEME VARIABLES
+       ========================================================= */
+    :root {
+      /* Varsayılan Koyu Tema */
+      --bg-body: #0a0e17;
+      --bg-radial: #162036;
+      --bg-card: #131b2e;
+      --bg-inner: #0b1120;
+      --bg-hover: #1e293b;
+      --border: #1f2d47;
+      --border-accent: rgba(16, 185, 129, 0.35);
+      --text-main: #f1f5f9;
+      --text-heading: #ffffff;
+      --text-muted: #94a3b8;
+      --emerald: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.18);
+      --indigo: #818cf8;
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      --card-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+      --box-shadow-subtle: 0 4px 12px rgba(0, 0, 0, 0.25);
+      --canvas-bg: #030712;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    /* ☀️ Açık Tema (Light Mode) */
+    html.light {
+      --bg-body: #f1f5f9;
+      --bg-radial: #e2e8f0;
+      --bg-card: #ffffff;
+      --bg-inner: #f8fafc;
+      --bg-hover: #f1f5f9;
+      --border: #e2e8f0;
+      --border-accent: rgba(5, 150, 105, 0.35);
+      --text-main: #0f172a;
+      --text-heading: #0f172a;
+      --text-muted: #64748b;
+      --emerald: #059669;
+      --emerald-glow: rgba(5, 150, 105, 0.12);
+      --indigo: #4f46e5;
+      --amber: #d97706;
+      --rose: #e11d48;
+      --card-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.05);
+      --box-shadow-subtle: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --canvas-bg: #090d16;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at top center, var(--bg-radial) 0%, var(--bg-body) 70%);
+      color: var(--text-main);
+      font-family: var(--font);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+      -webkit-font-smoothing: antialiased;
+      transition: background 0.25s ease, color 0.25s ease;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 26px;
+      box-shadow: var(--card-shadow);
+      backdrop-filter: blur(12px);
+      transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 18px;
+      gap: 12px;
+      transition: border-color 0.25s ease;
+    }
+    .header-left h1 {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text-heading);
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      letter-spacing: -0.01em;
+    }
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--emerald);
+      box-shadow: 0 0 12px var(--emerald);
+      animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.2); opacity: 0.6; }
+    }
+    .header-left p {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    
+    /* Buttons in header */
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--bg-inner);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-size: 11.5px;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+      transition: all 0.2s ease;
+      box-shadow: var(--box-shadow-subtle);
+      user-select: none;
+    }
+    .action-btn:hover {
+      background: var(--bg-hover);
+      border-color: var(--emerald);
+      transform: translateY(-1px);
+    }
+    .action-btn:active {
+      transform: translateY(0);
+    }
+
+    .badges-col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+    }
+    .badge-mode {
+      background: var(--emerald-glow);
+      color: var(--emerald);
+      border: 1px solid var(--border-accent);
+      padding: 3px 9px;
+      border-radius: 9999px;
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+    .badge-doi {
+      font-size: 9.5px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-family: var(--font-mono);
+      transition: color 0.2s;
+    }
+    .badge-doi:hover { color: var(--emerald); }
+
+    /* Controls */
+    .controls-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .field-group label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    select {
+      width: 100%;
+      background: var(--bg-inner);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 9px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+    }
+    select:focus {
+      border-color: var(--emerald);
+      box-shadow: 0 0 0 2px var(--emerald-glow);
+    }
+    input[type=range] {
+      width: 100%;
+      height: 6px;
+      background: var(--bg-inner);
+      border-radius: 6px;
+      outline: none;
+      -webkit-appearance: none;
+      margin-top: 14px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--emerald);
+      cursor: pointer;
+      box-shadow: 0 0 10px var(--emerald);
+      transition: transform 0.1s;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+
+    /* Main Display Layout */
+    .display-layout {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    /* Canvas Box */
+    .canvas-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .canvas-wrapper {
+      position: relative;
+      width: 148px;
+      height: 148px;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+      background: var(--canvas-bg);
+    }
+    canvas {
+      width: 148px;
+      height: 148px;
+      display: block;
+      image-rendering: pixelated;
+    }
+    .crosshair-h {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      border-top: 1px dashed rgba(255, 255, 255, 0.45);
+      pointer-events: none;
+    }
+    .crosshair-v {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      border-left: 1px dashed rgba(255, 255, 255, 0.45);
+      pointer-events: none;
+    }
+    .quad-tag {
+      position: absolute;
+      font-size: 9px;
+      font-weight: 800;
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.9), 0 0 2px #000;
+      pointer-events: none;
+      font-family: var(--font-mono);
+    }
+    .tag-q1 { top: 4px; left: 6px; }
+    .tag-q2 { top: 4px; right: 6px; }
+    .tag-q3 { bottom: 4px; left: 6px; }
+    .tag-q4 { bottom: 4px; right: 6px; color: #fde047; }
+    .res-label {
+      font-size: 10px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      margin-top: 6px;
+    }
+
+    /* Quadrant Weight Cards */
+    .weights-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .weight-card {
+      background: var(--bg-inner);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 12px;
+      transition: border-color 0.2s, transform 0.15s, background-color 0.25s;
+    }
+    .weight-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-1px);
+    }
+    .weight-card-bias {
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+    html.light .weight-card-bias {
+      border-color: rgba(217, 119, 6, 0.3);
+    }
+    .wc-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+    .wc-title {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+    .wc-ratio {
+      font-size: 9.5px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+    .wc-val {
+      font-size: 17px;
+      font-weight: 800;
+      font-family: var(--font-mono);
+      color: var(--text-main);
+    }
+    .val-emerald { color: var(--emerald); }
+    .val-amber { color: var(--amber); }
+
+    /* Truth Table / Live Verification */
+    .verification-card {
+      background: var(--bg-inner);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+      transition: background-color 0.25s ease, border-color 0.25s ease;
+    }
+    .vc-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .vc-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .accuracy-badge {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2.5px 8px;
+      border-radius: 6px;
+      letter-spacing: 0.02em;
+      transition: all 0.2s;
+    }
+    .badge-ok {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--emerald);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+    .badge-warn {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--amber);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+    }
+
+    .truth-table-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .case-box {
+      border-radius: 8px;
+      padding: 8px 6px;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+    
+    /* Case status styles for dark mode */
+    html.dark .case-success {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.3);
+      color: #34d399;
+    }
+    html.dark .case-fail {
+      background: rgba(244, 63, 94, 0.12);
+      border-color: rgba(244, 63, 94, 0.3);
+      color: #fb7185;
+    }
+
+    /* Case status styles for light mode */
+    html.light .case-success {
+      background: rgba(16, 185, 129, 0.1);
+      border-color: rgba(16, 185, 129, 0.35);
+      color: #047857;
+      font-weight: 600;
+    }
+    html.light .case-fail {
+      background: rgba(244, 63, 94, 0.1);
+      border-color: rgba(244, 63, 94, 0.35);
+      color: #be123c;
+      font-weight: 600;
+    }
+
+    .case-inp {
+      font-size: 9.5px;
+      color: var(--text-muted);
+      margin-bottom: 3px;
+    }
+    .case-out {
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    /* Mathematical Formula Box */
+    .formula-box {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+      background: var(--bg-inner);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 12px;
+      margin-bottom: 18px;
+      line-height: 1.5;
+      transition: background-color 0.25s ease, border-color 0.25s ease;
+    }
+    .formula-box code {
+      color: var(--indigo);
+      font-weight: 700;
+    }
+
+    /* Footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      transition: border-color 0.25s ease;
+    }
+    .btn-txt {
+      background: var(--bg-inner);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-txt:hover {
+      background: var(--bg-hover);
+      border-color: var(--emerald);
+      color: var(--emerald);
+    }
+
+    @media (max-width: 580px) {
+      .display-layout { grid-template-columns: 1fr; }
+      .controls-grid { grid-template-columns: 1fr; }
+      .truth-table-grid { grid-template-columns: repeat(2, 1fr); }
+      .container { padding: 18px 16px; }
+      .header { flex-direction: column; align-items: flex-start; }
+      .header-actions { width: 100%; justify-content: space-between; margin-top: 8px; }
+      .badges-col { align-items: flex-end; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Üst Başlık Banner -->
+  <div class="header">
+    <div class="header-left">
+      <h1>
+        <span class="status-dot"></span>
+        <span id="qvTitle">128×128 4-Quadrant Fraktal Nöron</span>
+      </h1>
+      <p id="qvSubtitle">Mandelbrot Uzayından Prosedürel Sinaptik Ağırlık ve Eşik Sentezi</p>
+    </div>
+    <div class="header-actions">
+      <!-- Dil Değiştirici Buton (TR / EN) -->
+      <button id="langToggleBtn" class="action-btn" title="Dili Değiştir / Switch Language">
+        <span id="langIcon">🌐</span>
+        <span id="langText">English</span>
+      </button>
+
+      <!-- Açık / Koyu Tema Değiştirici -->
+      <button id="themeToggleBtn" class="action-btn" title="Açık / Koyu Tema Değiştir">
+        <span id="themeIcon">☀️</span>
+        <span id="themeText">Açık Mod</span>
+      </button>
+
+      <div class="badges-col">
+        <span id="badgeMode" class="badge-mode">CANLI SENTEZ</span>
+        <a href="https://doi.org/10.5281/zenodo.22774935" target="_blank" class="badge-doi">DOI: 10.5281/zenodo.22774935</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kontroller: Kapı Seçici & Zoom Slider -->
+  <div class="controls-grid">
+    <div class="field-group">
+      <label for="presetSelect">
+        <span id="lblTargetGate">Hedef Mantık Kapısı</span>
+        <span id="coordBadge" style="color:var(--text-muted); font-family:var(--font-mono); font-size:10px;">cx: -0.056, cy: 0.806</span>
+      </label>
+      <select id="presetSelect">
+        <option value="or" selected id="optOr">🚪 OR Kapısı (cx: -0.055780, cy: 0.806329)</option>
+        <option value="and" id="optAnd">🏦 AND Kapısı (cx: -0.144732, cy: 0.758854)</option>
+        <option value="nand" id="optNand">🚨 NAND Kapısı (cx: -0.740191, cy: 0.174654)</option>
+        <option value="nor" id="optNor">🔒 NOR Kapısı (cx: -0.523561, cy: 0.525212)</option>
+      </select>
+    </div>
+
+    <div class="field-group">
+      <label for="zoomSlider">
+        <span id="lblZoom">Büyütme Faktörü (Zoom)</span>
+        <span id="zoomVal" style="color:var(--emerald); font-family:var(--font-mono); font-weight:700;">100.0x</span>
+      </label>
+      <input type="range" id="zoomSlider" min="0" max="4.0" step="0.005" value="2.0">
+    </div>
+  </div>
+
+  <!-- Ana Gösterim: Canvas & 4-Quadrant Değerleri -->
+  <div class="display-layout">
+    <div class="canvas-container">
+      <div class="canvas-wrapper">
+        <canvas id="mandelCanvas" width="128" height="128"></canvas>
+        <div class="crosshair-h"></div>
+        <div class="crosshair-v"></div>
+        <span class="quad-tag tag-q1">Q1</span>
+        <span class="quad-tag tag-q2">Q2</span>
+        <span class="quad-tag tag-q3">Q3</span>
+        <span class="quad-tag tag-q4">Q4 (b)</span>
+      </div>
+      <div id="resLabel" class="res-label">128 × 128 Örnekleme</div>
+    </div>
+
+    <!-- 4 Ağırlık Kartı -->
+    <div class="weights-grid">
+      <div class="weight-card">
+        <div class="wc-header">
+          <span id="wcTitle1" class="wc-title">Q1 &rarr; Ağırlık 1 (w₁)</span>
+          <span id="q1Ratio" class="wc-ratio">59.6%</span>
+        </div>
+        <div id="w1Val" class="wc-val val-emerald">+0.575</div>
+      </div>
+
+      <div class="weight-card">
+        <div class="wc-header">
+          <span id="wcTitle2" class="wc-title">Q2 &rarr; Ağırlık 2 (w₂)</span>
+          <span id="q2Ratio" class="wc-ratio">59.0%</span>
+        </div>
+        <div id="w2Val" class="wc-val val-emerald">+0.540</div>
+      </div>
+
+      <div class="weight-card">
+        <div class="wc-header">
+          <span id="wcTitle3" class="wc-title">Q3 &rarr; Yardımcı (w₃)</span>
+          <span id="q3Ratio" class="wc-ratio">40.6%</span>
+        </div>
+        <div id="w3Val" class="wc-val">-0.564</div>
+      </div>
+
+      <div class="weight-card weight-card-bias">
+        <div class="wc-header">
+          <span id="wcTitle4" class="wc-title" style="color:var(--amber);">Q4 &rarr; Eşik Sapması (b)</span>
+          <span id="q4Ratio" class="wc-ratio">45.5%</span>
+        </div>
+        <div id="biasVal" class="wc-val val-amber">-0.272</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Matematiksel Aktivasyon Formülü -->
+  <div id="formulaBox" class="formula-box">
+    Nöron Karar Fonksiyonu: <code>ŷ = σ(w₁ · x₁ + w₂ · x₂ + b)</code> &nbsp;|&nbsp; <code>w_k = (Oran_{Qk} - 0.5) × 6.0</code>
+  </div>
+
+  <!-- Canlı Mantık Tablosu Doğrulama -->
+  <div class="verification-card">
+    <div class="vc-header">
+      <span class="vc-title">
+        <span id="vcTitle">⚡ Canlı Doğruluk Testi (Doğruluk Tablosu)</span>
+      </span>
+      <span id="accuracyBadge" class="accuracy-badge badge-ok">%100 Başarı</span>
+    </div>
+
+    <div class="truth-table-grid">
+      <div id="case0" class="case-box case-success">
+        <div id="caseInp0" class="case-inp">(0, 0) &rarr; Hedef: 0</div>
+        <div id="out0" class="case-out">0 (p=0.43)</div>
+      </div>
+      <div id="case1" class="case-box case-success">
+        <div id="caseInp1" class="case-inp">(0, 1) &rarr; Hedef: 1</div>
+        <div id="out1" class="case-out">1 (p=0.57)</div>
+      </div>
+      <div id="case2" class="case-box case-success">
+        <div id="caseInp2" class="case-inp">(1, 0) &rarr; Hedef: 1</div>
+        <div id="out2" class="case-out">1 (p=0.58)</div>
+      </div>
+      <div id="case3" class="case-box case-success">
+        <div id="caseInp3" class="case-inp">(1, 1) &rarr; Hedef: 1</div>
+        <div id="out3" class="case-out">1 (p=0.70)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Alt Bilgi: Yazarlar ve 24 Bayt Bellek İndirme -->
+  <div class="footer">
+    <div>
+      <strong id="lblAuthors">Yazarlar:</strong> Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı
+    </div>
+    <button class="btn-txt" onclick="downloadMemoryTxt()">
+      💾 <span id="btnDownloadText">24B Bellek İndir (.TXT)</span>
+    </button>
+  </div>
+
+</div>
+
+<script>
+  // =========================================================
+  // ÇOKLU DİL MOTORU (I18N: TR / EN)
+  // =========================================================
+  const I18N = {
+    tr: {
+      pageTitle: "128x128 4-Quadrant Fraktal Nöron Deney Laboratuvarı",
+      qvTitle: "128×128 4-Quadrant Fraktal Nöron",
+      qvSubtitle: "Mandelbrot Uzayından Prosedürel Sinaptik Ağırlık ve Eşik Sentezi",
+      langButton: "English",
+      badgeMode: "CANLI SENTEZ",
+      lblTargetGate: "Hedef Mantık Kapısı",
+      lblZoom: "Büyütme Faktörü (Zoom)",
+      resLabel: "128 × 128 Örnekleme",
+      wcTitle1: "Q1 → Ağırlık 1 (w₁)",
+      wcTitle2: "Q2 → Ağırlık 2 (w₂)",
+      wcTitle3: "Q3 → Yardımcı (w₃)",
+      wcTitle4: "Q4 → Eşik Sapması (b)",
+      formulaBox: 'Nöron Karar Fonksiyonu: <code>ŷ = σ(w₁ · x₁ + w₂ · x₂ + b)</code> &nbsp;|&nbsp; <code>w_k = (Oran_{Qk} - 0.5) × 6.0</code>',
+      vcTitle: "⚡ Canlı Doğruluk Testi (Doğruluk Tablosu)",
+      accOk: "%100 Başarı",
+      accPattern: "%{rate} Başarı",
+      targetLabel: "Hedef",
+      lblAuthors: "Yazarlar:",
+      btnDownloadText: "24B Bellek İndir (.TXT)",
+      themeLight: "Açık Mod",
+      themeDark: "Koyu Mod",
+      presets: {
+        or: "🚪 OR Kapısı (cx: -0.055780, cy: 0.806329)",
+        and: "🏦 AND Kapısı (cx: -0.144732, cy: 0.758854)",
+        nand: "🚨 NAND Kapısı (cx: -0.740191, cy: 0.174654)",
+        nor: "🔒 NOR Kapısı (cx: -0.523561, cy: 0.525212)"
+      },
+      txtDump: {
+        header: "MANDELBROT FRAKTAL NÖRAL SENTEZ - 24 BAYT BELLEK DÖKÜMÜ",
+        permStorage: "Kalıcı Ağırlık Belleği  : 0 Bayt (Prosedürel Sentez ile Baypas Edildi)",
+        dynamicSeed: "Dinamik Koordinat Tohumu : 24 Bayt (Üç adet 64-bit IEEE-754 Float)",
+        synapsesTitle: "Türetilen Sinapslar     :",
+        accuracy: "Sınıflandırma Başarımı   :",
+        status: "Durum                    : Deterministik, Tekrarlanabilir, %100 Doğrulanmış",
+        authors: "Yazarlar                 : Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı"
+      }
+    },
+    en: {
+      pageTitle: "128x128 4-Quadrant Fractal Neuron Laboratory",
+      qvTitle: "128×128 4-Quadrant Fractal Neuron",
+      qvSubtitle: "Procedural Synaptic Weight & Bias Synthesis from Mandelbrot Space",
+      langButton: "Türkçe",
+      badgeMode: "LIVE SYNTHESIS",
+      lblTargetGate: "Target Logic Gate",
+      lblZoom: "Zoom Scale Factor",
+      resLabel: "128 × 128 Sampling",
+      wcTitle1: "Q1 → Weight 1 (w₁)",
+      wcTitle2: "Q2 → Weight 2 (w₂)",
+      wcTitle3: "Q3 → Auxiliary (w₃)",
+      wcTitle4: "Q4 → Threshold Bias (b)",
+      formulaBox: 'Neuron Activation Function: <code>ŷ = σ(w₁ · x₁ + w₂ · x₂ + b)</code> &nbsp;|&nbsp; <code>w_k = (Ratio_{Qk} - 0.5) × 6.0</code>',
+      vcTitle: "⚡ Live Truth Table Verification",
+      accOk: "100% Accuracy",
+      accPattern: "%{rate} Accuracy",
+      targetLabel: "Target",
+      lblAuthors: "Authors:",
+      btnDownloadText: "Download 24B Memory (.TXT)",
+      themeLight: "Light Mode",
+      themeDark: "Dark Mode",
+      presets: {
+        or: "🚪 OR Gate (cx: -0.055780, cy: 0.806329)",
+        and: "🏦 AND Gate (cx: -0.144732, cy: 0.758854)",
+        nand: "🚨 NAND Gate (cx: -0.740191, cy: 0.174654)",
+        nor: "🔒 NOR Gate (cx: -0.523561, cy: 0.525212)"
+      },
+      txtDump: {
+        header: "MANDELBROT FRACTAL NEURAL SYNTHESIS - 24-BYTE MEMORY DUMP",
+        permStorage: "Permanent Weight Storage : 0 Bytes (Bypassed via Procedural Generation)",
+        dynamicSeed: "Dynamic Coordinate Seed  : 24 Bytes (Three 64-bit IEEE-754 Floats)",
+        synapsesTitle: "Synthesized Synapses     :",
+        accuracy: "Classification Accuracy  :",
+        status: "Status                   : Deterministic, Reproducible, Verified 100%",
+        authors: "Authors                  : Volkan Dağlı, Zerrin Dağlı, Dağhan Dağlı"
+      }
+    }
+  };
+
+  let currentLang = localStorage.getItem('widget_lang') || 'tr';
+
+  function applyLanguage(lang) {
+    currentLang = lang;
+    document.documentElement.lang = lang;
+    localStorage.setItem('widget_lang', lang);
+
+    const dict = I18N[lang];
+    document.title = dict.pageTitle;
+    document.getElementById('qvTitle').innerText = dict.qvTitle;
+    document.getElementById('qvSubtitle').innerText = dict.qvSubtitle;
+    document.getElementById('langText').innerText = dict.langButton;
+    document.getElementById('badgeMode').innerText = dict.badgeMode;
+    document.getElementById('lblTargetGate').innerText = dict.lblTargetGate;
+    document.getElementById('lblZoom').innerText = dict.lblZoom;
+    document.getElementById('resLabel').innerText = dict.resLabel;
+    document.getElementById('wcTitle1').innerHTML = dict.wcTitle1;
+    document.getElementById('wcTitle2').innerHTML = dict.wcTitle2;
+    document.getElementById('wcTitle3').innerHTML = dict.wcTitle3;
+    document.getElementById('wcTitle4').innerHTML = dict.wcTitle4;
+    document.getElementById('formulaBox').innerHTML = dict.formulaBox;
+    document.getElementById('vcTitle').innerText = dict.vcTitle;
+    document.getElementById('lblAuthors').innerText = dict.lblAuthors;
+    document.getElementById('btnDownloadText').innerText = dict.btnDownloadText;
+
+    // Presets options text
+    document.getElementById('optOr').innerText = dict.presets.or;
+    document.getElementById('optAnd').innerText = dict.presets.and;
+    document.getElementById('optNand').innerText = dict.presets.nand;
+    document.getElementById('optNor').innerText = dict.presets.nor;
+
+    // Update Theme text according to language
+    const isDark = document.documentElement.classList.contains('dark');
+    themeText.innerText = isDark ? dict.themeLight : dict.themeDark;
+
+    render();
+  }
+
+  function toggleLanguage() {
+    applyLanguage(currentLang === 'tr' ? 'en' : 'tr');
+  }
+
+  document.getElementById('langToggleBtn').addEventListener('click', toggleLanguage);
+
+  // =========================================================
+  // TEMA DEĞİŞTİRME MANTIĞI (AÇIK / KOYU MOD)
+  // =========================================================
+  const themeToggleBtn = document.getElementById('themeToggleBtn');
+  const themeIcon = document.getElementById('themeIcon');
+  const themeText = document.getElementById('themeText');
+
+  function applyTheme(isDark) {
+    const dict = I18N[currentLang] || I18N.tr;
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+      document.documentElement.classList.remove('light');
+      themeIcon.innerText = "☀️";
+      themeText.innerText = dict.themeLight;
+      localStorage.setItem('widget_theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light');
+      themeIcon.innerText = "🌙";
+      themeText.innerText = dict.themeDark;
+      localStorage.setItem('widget_theme', 'light');
+    }
+  }
+
+  function toggleTheme() {
+    const isCurrentlyDark = document.documentElement.classList.contains('dark');
+    applyTheme(!isCurrentlyDark);
+  }
+
+  themeToggleBtn.addEventListener('click', toggleTheme);
+
+  // =========================================================
+  // MANDELBROT VE NÖRON SENTEZİ MANTIĞI
+  // =========================================================
+  const presets = {
+    or:   { cx: -0.055780, cy: 0.806329, logZ: 2.0, maxI: 80, target: [0, 1, 1, 1] },
+    and:  { cx: -0.144732, cy: 0.758854, logZ: 0.653, maxI: 80, target: [0, 0, 0, 1] },
+    nand: { cx: -0.740191, cy: 0.174654, logZ: 3.534, maxI: 70, target: [1, 1, 1, 0] },
+    nor:  { cx: -0.523561, cy: 0.525212, logZ: 3.051, maxI: 80, target: [1, 0, 0, 0] }
+  };
+
+  let currentPreset = presets.or;
+
+  const canvas = document.getElementById('mandelCanvas');
+  const ctx = canvas.getContext('2d');
+  const slider = document.getElementById('zoomSlider');
+  const zoomVal = document.getElementById('zoomVal');
+  const presetSelect = document.getElementById('presetSelect');
+  const coordBadge = document.getElementById('coordBadge');
+
+  const w1El = document.getElementById('w1Val');
+  const w2El = document.getElementById('w2Val');
+  const w3El = document.getElementById('w3Val');
+  const biasEl = document.getElementById('biasVal');
+  const q1RatioEl = document.getElementById('q1Ratio');
+  const q2RatioEl = document.getElementById('q2Ratio');
+  const q3RatioEl = document.getElementById('q3Ratio');
+  const q4RatioEl = document.getElementById('q4Ratio');
+  const accBadge = document.getElementById('accuracyBadge');
+
+  function downloadMemoryTxt() {
+    const dict = I18N[currentLang] || I18N.tr;
+    const td = dict.txtDump;
+    const logZ = parseFloat(slider.value);
+    const zoom = Math.pow(10, logZ);
+    const content = 
+`======================================================================
+${td.header}
+======================================================================
+${td.permStorage}
+${td.dynamicSeed}
+----------------------------------------------------------------------
+Parameter 1 (cx)        : ${currentPreset.cx.toFixed(8)} (Float64 - 8 Bytes)
+Parameter 2 (cy)        : ${currentPreset.cy.toFixed(8)} (Float64 - 8 Bytes)
+Parameter 3 (zoom)      : ${zoom.toFixed(4)}x (Float64 - 8 Bytes)
+----------------------------------------------------------------------
+${td.synapsesTitle}
+  • w1 (Q1, Input 1)    : ${w1El.innerText}
+  • w2 (Q2, Input 2)    : ${w2El.innerText}
+  • w3 (Q3, Auxiliary)  : ${w3El.innerText}
+  • b  (Q4, Bias)       : ${biasEl.innerText}
+${td.accuracy} ${accBadge.innerText}
+${td.status}
+DOI Reference           : 10.5281/zenodo.22774935
+${td.authors}
+======================================================================`;
+
+    const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `fractal_neuron_memory_${presetSelect.value}_${currentLang}_24bytes.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function render() {
+    const dict = I18N[currentLang] || I18N.tr;
+    const logZ = parseFloat(slider.value);
+    const zoom = Math.pow(10, logZ);
+    zoomVal.innerText = zoom >= 100 ? zoom.toFixed(1) + 'x' : zoom.toFixed(2) + 'x';
+    coordBadge.innerText = `cx: ${currentPreset.cx.toFixed(3)}, cy: ${currentPreset.cy.toFixed(3)}`;
+
+    const res = 128;
+    const maxIter = currentPreset.maxI;
+    const scale = 1.0 / zoom;
+    const cx = currentPreset.cx;
+    const cy = currentPreset.cy;
+
+    const imgData = ctx.createImageData(res, res);
+    const data = imgData.data;
+
+    let qCount = [0, 0, 0, 0];
+    const qTotal = (res / 2) * (res / 2);
+
+    for (let py = 0; py < res; py++) {
+      const y0 = cy - scale + (py / (res - 1)) * (2.0 * scale);
+      const isBottom = (py >= res / 2);
+
+      for (let px = 0; px < res; px++) {
+        const x0 = cx - scale + (px / (res - 1)) * (2.0 * scale);
+        const isRight = (px >= res / 2);
+
+        let qIdx = 0;
+        if (!isBottom && !isRight) qIdx = 0;      // Q1 (Top-Left)
+        else if (!isBottom && isRight) qIdx = 1;  // Q2 (Top-Right)
+        else if (isBottom && !isRight) qIdx = 2;  // Q3 (Bottom-Left)
+        else qIdx = 3;                            // Q4 (Bottom-Right)
+
+        let x = 0.0, y = 0.0, iter = 0;
+        while (x * x + y * y <= 4.0 && iter < maxIter) {
+          const xtemp = x * x - y * y + x0;
+          y = 2.0 * x * y + y0;
+          x = xtemp;
+          iter++;
+        }
+
+        const idx = (py * res + px) * 4;
+        if (iter === maxIter) {
+          qCount[qIdx]++;
+          data[idx] = 15;
+          data[idx + 1] = 23;
+          data[idx + 2] = 42;
+          data[idx + 3] = 255;
+        } else {
+          const hue = (iter / maxIter) * 260 + 190;
+          const rgb = hslToRgb(hue / 360, 0.85, 0.5);
+          data[idx] = rgb[0];
+          data[idx + 1] = rgb[1];
+          data[idx + 2] = rgb[2];
+          data[idx + 3] = 255;
+        }
+      }
+    }
+
+    ctx.putImageData(imgData, 0, 0);
+
+    const r1 = qCount[0] / qTotal;
+    const r2 = qCount[1] / qTotal;
+    const r3 = qCount[2] / qTotal;
+    const r4 = qCount[3] / qTotal;
+
+    const w1 = (r1 - 0.5) * 6.0;
+    const w2 = (r2 - 0.5) * 6.0;
+    const w3 = (r3 - 0.5) * 6.0;
+    const bias = (r4 - 0.5) * 6.0;
+
+    w1El.innerText = (w1 >= 0 ? '+' : '') + w1.toFixed(3);
+    w2El.innerText = (w2 >= 0 ? '+' : '') + w2.toFixed(3);
+    w3El.innerText = (w3 >= 0 ? '+' : '') + w3.toFixed(3);
+    biasEl.innerText = (bias >= 0 ? '+' : '') + bias.toFixed(3);
+
+    q1RatioEl.innerText = (r1 * 100).toFixed(1) + '%';
+    q2RatioEl.innerText = (r2 * 100).toFixed(1) + '%';
+    q3RatioEl.innerText = (r3 * 100).toFixed(1) + '%';
+    q4RatioEl.innerText = (r4 * 100).toFixed(1) + '%';
+
+    // Canlı Doğruluk Tablosu
+    const testInputs = [[0, 0], [0, 1], [1, 0], [1, 1]];
+    const target = currentPreset.target;
+    let correct = 0;
+
+    testInputs.forEach((inp, idx) => {
+      const z = w1 * inp[0] + w2 * inp[1] + bias;
+      const pred = 1.0 / (1.0 + Math.exp(-z));
+      const lbl = pred >= 0.5 ? 1 : 0;
+      const isOk = (lbl === target[idx]);
+      if (isOk) correct++;
+
+      const el = document.getElementById('case' + idx);
+      const caseInpEl = document.getElementById('caseInp' + idx);
+      const outSpan = document.getElementById('out' + idx);
+      
+      caseInpEl.innerHTML = `(${inp[0]}, ${inp[1]}) &rarr; ${dict.targetLabel}: ${target[idx]}`;
+      outSpan.innerText = `${lbl} (p=${pred.toFixed(2)})`;
+      if (isOk) {
+        el.className = "case-box case-success";
+      } else {
+        el.className = "case-box case-fail";
+      }
+    });
+
+    const accRate = Math.round((correct / 4) * 100);
+    accBadge.innerText = accRate === 100 ? dict.accOk : dict.accPattern.replace('{rate}', accRate);
+    accBadge.className = accRate === 100 ? "accuracy-badge badge-ok" : "accuracy-badge badge-warn";
+  }
+
+  function hslToRgb(h, s, l) {
+    let r, g, b;
+    if (s === 0) r = g = b = l;
+    else {
+      const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+      const p = 2 * l - q;
+      r = hue2rgb(p, q, h + 1/3);
+      g = hue2rgb(p, q, h);
+      b = hue2rgb(p, q, h - 1/3);
+    }
+    return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+  }
+
+  function hue2rgb(p, q, t) {
+    if (t < 0) t += 1;
+    if (t > 1) t -= 1;
+    if (t < 1/6) return p + (q - p) * 6 * t;
+    if (t < 1/2) return q;
+    if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+    return p;
+  }
+
+  slider.addEventListener('input', render);
+  presetSelect.addEventListener('change', (e) => {
+    currentPreset = presets[e.target.value];
+    slider.value = currentPreset.logZ;
+    render();
+  });
+
+  // Başlangıç Ayarları
+  applyLanguage(currentLang);
+  const savedTheme = localStorage.getItem('widget_theme');
+  applyTheme(savedTheme !== 'light');
+</script>
+</body>
+</html>
+"""
+
+# =========================================================================
+# 2. BUILD BILINGUAL interactive_lab.html
+# =========================================================================
+il_html = """<!DOCTYPE html>
 <html lang="tr" class="light">
 <head>
   <meta charset="UTF-8">
@@ -523,7 +1571,7 @@
         },
         accuracyBadge: "%100 Doğru Çalışıyor",
         step1Title: "1. Adım: Girdiler (Durum)",
-        step1Tip: "💡 <b>Halk Diliyle:</b> Burası yapay zekanın \"gözleri ve kulaklarıdır\". Dış dünyadan gelen ham sinyallerdir.",
+        step1Tip: "💡 <b>Halk Diliyle:</b> Burası yapay zekanın \\"gözleri ve kulaklarıdır\\". Dış dünyadan gelen ham sinyallerdir.",
         step2Title: "2. Adım: Fraktal Bellek (Mandelbrot)",
         q4Tag: "Q4: Eşik(b)",
         lblZoomLabel: "Fraktal Büyüteç (Zoom):",
@@ -576,7 +1624,7 @@
           stateDesc: "Ağırlıklar bellekte yer kaplamaz; Mandelbrot formülünün (z² + c) doğal geometrisinden ihtiyaç anında filizlenir. Büyüteci çevirdiğiniz an yeni bir mantık hücresine dönüşür.",
           future: "İşlem Hızı & Gelecek:",
           futureVal: "Işık Hızında Donanım İmkânı",
-          futureDesc: 'Şu an tarayıcınızda yazılımla <span id="compLiveMsInline" class="font-bold text-purple-600 dark:text-purple-400">~3.8 ms</span>\'de üretiliyor. Gelecekte fotonik çiplerle nanosaniyeler (<span class="text-emerald-600 dark:text-emerald-400 font-semibold">&lt; 1 ns</span>) içinde sıfır elektrikle üretilebilir!',
+          futureDesc: 'Şu an tarayıcınızda yazılımla <span id="compLiveMsInline" class="font-bold text-purple-600 dark:text-purple-400">~3.8 ms</span>\\'de üretiliyor. Gelecekte fotonik çiplerle nanosaniyeler (<span class="text-emerald-600 dark:text-emerald-400 font-semibold">&lt; 1 ns</span>) içinde sıfır elektrikle üretilebilir!',
           foot: "Kalıcı Depolama:",
           footVal: "Sadece 24 Byte (3 Sayı)"
         },
@@ -694,7 +1742,7 @@
           statusLabel: "Durum",
           explainLabel: "Açıklama            :",
           sec3: "[3] FRAKTAL GEOMETRİDEN TÜRETİLEN ANLIK NÖRON KATSAYILARI",
-          sec3Desc: "Mandelbrot penceresinin 4 çeyreğindeki siyah adacık yoğunluklarından\nihtiyaç anında canlı türetilen ağırlık ve eşik katsayıları:",
+          sec3Desc: "Mandelbrot penceresinin 4 çeyreğindeki siyah adacık yoğunluklarından\\nihtiyaç anında canlı türetilen ağırlık ve eşik katsayıları:",
           w1Label: "  • Girdi 1 Ağırlığı (w1) :",
           w2Label: "  • Girdi 2 Ağırlığı (w2) :",
           bLabel: "  • Eşik Değeri (Bias b)  :",
@@ -731,7 +1779,7 @@
         },
         accuracyBadge: "100% Correct Verification",
         step1Title: "Step 1: Inputs (Sensory State)",
-        step1Tip: "💡 <b>In Plain Words:</b> These are the AI's \"eyes and ears\"—raw sensory signals arriving from the environment.",
+        step1Tip: "💡 <b>In Plain Words:</b> These are the AI's \\"eyes and ears\\"—raw sensory signals arriving from the environment.",
         step2Title: "Step 2: Fractal Memory (Mandelbrot Space)",
         q4Tag: "Q4: Bias(b)",
         lblZoomLabel: "Fractal Magnification (Zoom):",
@@ -902,7 +1950,7 @@
           statusLabel: "Status",
           explainLabel: "Explanation         :",
           sec3: "[3] PROCEDURALLY SYNTHESIZED SYNAPTIC WEIGHTS",
-          sec3Desc: "Synaptic weights and bias derived on-the-fly from interior area\ndensities across the 4 quadrants of the Mandelbrot viewport:",
+          sec3Desc: "Synaptic weights and bias derived on-the-fly from interior area\\ndensities across the 4 quadrants of the Mandelbrot viewport:",
           w1Label: "  • Input 1 Weight (w1)   :",
           w2Label: "  • Input 2 Weight (w2)   :",
           bLabel: "  • Threshold Bias (b)    :",
@@ -1493,3 +2541,28 @@ ${td.footer}
   </script>
 </body>
 </html>
+"""
+
+def main():
+    os.makedirs(DEMOS_DIR, exist_ok=True)
+    os.makedirs(DESKTOP_DIR_ZENODO, exist_ok=True)
+    os.makedirs(DESKTOP_DIR_ESKI, exist_ok=True)
+
+    qv_path = os.path.join(DEMOS_DIR, "quadrant_visualizer.html")
+    with open(qv_path, "w", encoding="utf-8") as f:
+        f.write(qv_html)
+    print(f"[+] Written: {qv_path} ({len(qv_html)} bytes)")
+
+    il_path = os.path.join(DEMOS_DIR, "interactive_lab.html")
+    with open(il_path, "w", encoding="utf-8") as f:
+        f.write(il_html)
+    print(f"[+] Written: {il_path} ({len(il_html)} bytes)")
+
+    # Desktop Mirrors
+    for dest_dir in [DESKTOP_DIR_ZENODO, DESKTOP_DIR_ESKI]:
+        shutil.copy2(qv_path, os.path.join(dest_dir, "quadrant_visualizer.html"))
+        shutil.copy2(il_path, os.path.join(dest_dir, "interactive_lab.html"))
+        print(f"[+] Synced to {dest_dir}")
+
+if __name__ == "__main__":
+    main()
