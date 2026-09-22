@@ -27,7 +27,7 @@ keywords:
   - "orbital error dynamics"
   - "self-organized criticality"
   - "patent pending TR 2026/016285"
-license: "MIT"
+license: "BUSL-1.1"
 references:
   - type: article
     authors:
