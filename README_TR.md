@@ -7,7 +7,7 @@
 [![Paper 1: Zenodo Çatı DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
 [![Kardeş Makale: WERR](https://img.shields.io/badge/Kardeş%20Makale-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
 [![The Gauntlet Kıyaslamaları](https://img.shields.io/badge/The%20Gauntlet-Sıfır--VRAM%20Liderliği-brightgreen.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html)
-[![Lisans: MIT](https://img.shields.io/badge/Lisans-MIT-yellow.svg)](./LICENSE)
+[![Lisans: BSL 1.1](https://img.shields.io/badge/Lisans-BSL%201.1-red.svg)](./LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 > 🌐 **Dil Seçici / Language Switcher:**  
@@ -387,6 +387,10 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
 
 ---
 
-## 📜 Lisans & Açık Bilim
-Bu projenin yazılım kodları [MIT Lisansı](LICENSE) ile lisanslanmıştır.  
-Akademik makale ve dokümantasyon metinleri ise [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) kapsamında korunmaktadır.
+## 📜 Lisans ve Fikri Mülkiyet Hakları
+Bu projenin yazılım kodları ve matematiksel algoritmaları **[Business Source License 1.1 (BSL 1.1)](LICENSE)** ile lisanslanmıştır.  
+- **Akademik, Eğitim ve Bilimsel Araştırma:** Kâr amacı gütmeyen araştırmalar, akademik kıyaslamalar (benchmark), bilimsel çoğaltılabilirlik ve inceleme için tamamen ücretsiz ve açıktır.
+- **Ticari ve Kurumsal Kullanım:** Kodların veya algoritmaların ticari bir ürün, SaaS platformu veya ücretli bulut API servisi olarak sunulması; **ITouch Bilişim Sistemleri Mühendislik Danışmanlık Sanayi ve Ticaret Limited Şirketi** & Volkan Dağlı'dan resmi Ticari Lisans (Enterprise License) alınmasını gerektirir.
+- **Patent Koruması:** Bu çalışmada yer alan prosedürel nöral sentez yöntemleri **TÜRKPATENT TR 2026/016285** patent başvurusu ile korunmaktadır.
+- **Dönüşüm Tarihi:** **01.01.2030** tarihinde bu yazılım otomatik olarak **Apache License, Version 2.0** açık kaynak lisansına dönüşecektir.
+- Akademik makale ve dokümantasyon metinleri [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) kapsamında korunmaktadır.

@@ -8,7 +8,7 @@
 [![Companion Paper: WERR](https://img.shields.io/badge/Companion%20Paper-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
 [![The Gauntlet Benchmarks](https://img.shields.io/badge/The%20Gauntlet-Zero--VRAM%20Supremacy-brightgreen.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html)
 [![GitHub Education](https://img.shields.io/badge/GitHub%20Education-Community%20Exchange-2ea44f?logo=github&logoColor=white)](https://education.github.com/globalcampus/exchange)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-red.svg)](./LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 > 🌐 **Language Switcher / Dil Seçici:**  
@@ -389,6 +389,10 @@ If you utilize this research, procedural weight generation methodology, or inter
 
 ---
 
-## 📜 License & Open Science
-This project is open-source under the [MIT License](LICENSE).  
-The manuscript and technical documentation are distributed under [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+## 📜 License & Intellectual Property
+This software and its mathematical algorithms are licensed under the **[Business Source License 1.1 (BSL 1.1)](LICENSE)**.  
+- **Academic, Educational & Research Use:** Fully free and permissive for non-commercial research, academic benchmarking, scientific reproduction, and study.
+- **Commercial & Enterprise Use:** Any commercial deployment, hosted SaaS, or paid cloud service requires an express commercial enterprise license from **ITouch Bilişim Sistemleri Mühendislik Danışmanlık Sanayi ve Ticaret Limited Şirketi** & Volkan Dağlı.
+- **Patent Notice:** Certain procedural neural synthesis algorithms embodied in this work are subject to pending patent application **TÜRKPATENT TR 2026/016285**.
+- **Change Date:** On **2030-01-01**, this work automatically converts to the **Apache License, Version 2.0**.
+- The scientific manuscripts and documentation are distributed under [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
