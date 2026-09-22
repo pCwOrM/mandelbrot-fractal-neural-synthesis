@@ -393,4 +393,5 @@ Bu projenin yazılım kodları ve matematiksel algoritmaları **[Business Source
 - **Ticari ve Kurumsal Kullanım:** Kodların veya algoritmaların ticari bir ürün, SaaS platformu veya ücretli bulut API servisi olarak sunulması; **ITouch Bilişim Sistemleri Mühendislik Danışmanlık Sanayi ve Ticaret Limited Şirketi** & Volkan Dağlı'dan resmi Ticari Lisans (Enterprise License) alınmasını gerektirir.
 - **Patent Koruması:** Bu çalışmada yer alan prosedürel nöral sentez yöntemleri **TÜRKPATENT TR 2026/016285** patent başvurusu ile korunmaktadır.
 - **Dönüşüm Tarihi:** **01.01.2030** tarihinde bu yazılım otomatik olarak **Apache License, Version 2.0** açık kaynak lisansına dönüşecektir.
+- **Kurumsal İletişim & Lisanslama:** **ITouch Bilişim Sistemleri Ltd. Şti.** (MERSİS: `0469094455800001`, VKN: `4690944558`, Sanayi Sicil: `827254`) &bull; E-Posta: [info@itouch.com.tr](mailto:info@itouch.com.tr) &bull; KEP: `itouchbilisim@hs01.kep.tr`.
 - Akademik makale ve dokümantasyon metinleri [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) kapsamında korunmaktadır.
