@@ -392,8 +392,8 @@ If you utilize this research, procedural weight generation methodology, or inter
 ## 📜 License & Intellectual Property
 This software and its mathematical algorithms are licensed under the **[Business Source License 1.1 (BSL 1.1)](LICENSE)**.  
 - **Academic, Educational & Research Use:** Fully free and permissive for non-commercial research, academic benchmarking, scientific reproduction, and study.
-- **Commercial & Enterprise Use:** Any commercial deployment, hosted SaaS, or paid cloud service requires an express commercial enterprise license from **ITouch Bilişim Sistemleri Mühendislik Danışmanlık Sanayi ve Ticaret Limited Şirketi** & Volkan Dağlı.
+- **Commercial & Enterprise Use:** Any commercial deployment, hosted SaaS, or paid cloud service requires an express commercial enterprise license from **ITouch Systems** (ITouch Bilişim Sistemleri Ltd. Şti.).
 - **Patent Notice:** Certain procedural neural synthesis algorithms embodied in this work are subject to pending patent application **TÜRKPATENT TR 2026/016285**.
 - **Change Date:** On **2030-01-01**, this work automatically converts to the **Apache License, Version 2.0**.
-- **Commercial Inquiries:** Contact **ITouch Bilişim Sistemleri Ltd. Şti.** (MERSİS: `0469094455800001`, VKN: `4690944558`, Sanayi Sicil: `827254`) via [info@itouch.com.tr](mailto:info@itouch.com.tr) &bull; KEP: `itouchbilisim@hs01.kep.tr`.
+- **Commercial Inquiries:** Contact **ITouch Systems** (MERSİS: `0469094455800001`, VKN: `4690944558`, Sanayi Sicil: `827254`) via [info@itouch.com.tr](mailto:info@itouch.com.tr) &bull; [ask@answerr.me](mailto:ask@answerr.me) &bull; KEP: `itouchbilisim@hs01.kep.tr`.
 - The scientific manuscripts and documentation are distributed under [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
