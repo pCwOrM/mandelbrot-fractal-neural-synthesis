@@ -7,6 +7,7 @@
 [![Paper 1: Zenodo Concept DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
 [![Companion Paper: WERR](https://img.shields.io/badge/Companion%20Paper-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
 [![The Gauntlet Benchmarks](https://img.shields.io/badge/The%20Gauntlet-Zero--VRAM%20Supremacy-brightgreen.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html)
+[![GitHub Education](https://img.shields.io/badge/GitHub%20Education-Community%20Exchange-2ea44f?logo=github&logoColor=white)](https://education.github.com/globalcampus/exchange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
@@ -27,6 +28,7 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 | 🚀 **Citizen & Public Experience Lab** | Live Simulation | General Public & Students | [**Launch Public Lab**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/demos/interactive_lab.html) |
 | 🔬 **128×128 4-Quadrant Research Lab** | Mathematical | Researchers & Engineers | [**Launch Research Lab**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/demos/quadrant_visualizer.html) |
 | 🐍 **Interactive Snake AI & 1v1 Arena** | Real-Time Reflex & Autopilot | Gamers, Engineers & Mobile | [**Launch Snake Arena**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/demos/snake.html) |
+| 🎓 **GitHub Community Exchange** | Student & Research Showcase | Students & Open Source Contributors | [**Explore on Global Campus**](https://education.github.com/globalcampus/exchange) &bull; [**WERR Engine**](https://github.com/pCwOrM/werr) |
 | 🗣️ **Halka Sunum ve Teorik Rehber** | Dual-Layer Guide | Presenters & Educators | [**Open Presentation Guide (HTML)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/docs/Halka_Sunum_ve_Teorik_Rehber.html) |
 | 🏛️ **Paper 1: Fractal Neural Synthesis** | Journal Under Review | Open Science | [**Zenodo: 10.5281/zenodo.22867037**](https://zenodo.org/records/22867037) &bull; *Chaos, Solitons & Fractals (Elsevier)* |
 | ⚡ **Companion Paper: WERR (Edge Triage)** | Applied Edge NLP & Vision | Global / Applied AI | [**Zenodo: 10.5281/zenodo.22867426**](https://doi.org/10.5281/zenodo.22867426) &bull; [**GitHub: pCwOrM/werr**](https://github.com/pCwOrM/werr) |
