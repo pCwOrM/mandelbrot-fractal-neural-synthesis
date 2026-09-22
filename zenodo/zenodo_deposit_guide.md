@@ -69,7 +69,7 @@ Temel Bulgular ve Yenilikler:
 4. **Müstakil Açık Kaynak Laboratuvarı:** Çalışma, hiçbir sunucuya veya harici kütüphaneye ihtiyaç duymadan internetsiz ortamda çalışan interaktif bir web simülatörüyle doğrulanmıştır.
 
 Official GitHub Repository: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis
-License: MIT / CC-BY-4.0
+License: Business Source License 1.1 (BSL 1.1) / CC-BY-4.0
 ```
 
 ---

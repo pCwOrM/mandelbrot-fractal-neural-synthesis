@@ -235,7 +235,7 @@ mandelbrot-fractal-neural-synthesis/
 ├── README_TR.md                        # Kapsamlı Türkçe Kümülatif Ana Dokümantasyon
 ├── index.html                          # GitHub Pages Official Web Portal & Interactive Gallery
 ├── benchmarks.html                     # The Zero-VRAM Gauntlet (Master Benchmark Showcase)
-├── LICENSE                             # MIT Open Source License
+├── LICENSE                             # Business Source License 1.1 (BSL 1.1)
 ├── requirements.txt                    # Minimal Python Dependencies
 ├── CITATION.cff                        # Official Academic Citation Format (v4.0.0)
 ├── .zenodo.json                        # Automated Zenodo Open Science Metadata

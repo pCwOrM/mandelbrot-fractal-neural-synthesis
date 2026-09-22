@@ -33,9 +33,16 @@ tests/*
 !tests/test_fractal_core.py
 *ssh*
 *password*
+*secret*
+*credential*
 *.pem
 *.key
-*.env
+*.env*
+*.ppk
+*id_rsa*
+*id_ed25519*
+*token*
+*.cert
 
 private_archive_paper2/
 private_archive_rsa/
