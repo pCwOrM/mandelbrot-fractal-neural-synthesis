@@ -10,6 +10,8 @@
 [![The Gauntlet Kıyaslamaları](https://img.shields.io/badge/The%20Gauntlet-Sıfır--VRAM%20Liderliği-brightgreen.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html)
 [![Lisans: BSL 1.1](https://img.shields.io/badge/Lisans-BSL%201.1-red.svg)](./LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=github&logoColor=white)](https://github.com/sponsors/pCwOrM)
+[![Support on USDT TRC20](https://img.shields.io/badge/Destek-USDT%20TRC20-009393?logo=tether&logoColor=white)](#-sponsorluk-ve-hibe-destekleri)
 
 > 🌐 **Dil Seçici / Language Switcher:**  
 > [🇬🇧 English Documentation (README.md)](README.md) | **🇹🇷 Türkçe Dokümantasyon (Aktif)**
@@ -397,3 +399,21 @@ Bu projenin yazılım kodları ve matematiksel algoritmaları **[Business Source
 - **Dönüşüm Tarihi:** **01.01.2030** tarihinde bu yazılım otomatik olarak **Apache License, Version 2.0** açık kaynak lisansına dönüşecektir.
 - **Kurumsal İletişim & Lisanslama:** **ITouch Systems** (MERSİS: `0469094455800001`, VKN: `4690944558`, Sanayi Sicil: `827254`) &bull; E-Posta: [info@itouch.com.tr](mailto:info@itouch.com.tr) &bull; [ask@answerr.me](mailto:ask@answerr.me) &bull; KEP: `itouchbilisim@hs01.kep.tr`.
 - Akademik makale ve dokümantasyon metinleri [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/) kapsamında korunmaktadır.
+
+---
+
+## 💖 Sponsorluk ve Hibe Destekleri
+
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=github&logoColor=white)](https://github.com/sponsors/pCwOrM)
+[![Support on USDT TRC20](https://img.shields.io/badge/Destek-USDT%20TRC20-009393?logo=tether&logoColor=white)](#-sponsorluk-ve-hibe-destekleri)
+
+Sıfır-Bellekli Fraktal Nöron Sentezi ve Yörünge Hata Dinamikleri (OED) araştırmamız, bağımsız ve patent korumalı açık bilimsel bir girişimdir. Topluluk sponsorlukları ve vakıf hibeleri; tarayıcı tabanlı açık bilim laboratuvarlarımızı, akademik kıyaslamalarımızı ve yeni nesil sıfır-VRAM yapay zekâ mimarilerimizin gelişimini doğrudan destekler.
+
+### 💳 Resmi Bağış ve Destek Cüzdanı
+| Kanal / Platform | Ağ (Network) | Alıcı Cüzdan Adresi |
+| :--- | :--- | :--- |
+| **Resmi Cüzdan (Binance)** | TRC20 (TRON) | `TLMhaDJTVYBHBSGJ9nCQGLvqnYFPSBgLJu` |
+| **Resmi Tüzel Kişilik** | Teknokent | ITOUCH BİLİŞİM SİSTEMLERİ LTD. ŞTİ. (Çukurova Teknokent) |
+
+* **Resmi İletişim Kanalları:** `info@itouch.com.tr` (Kurumsal) | `pcworm@pcworm.net` (Baş Araştırmacı) | `ask@answerr.me` (Otonom Ajan) | Web: `https://answerr.me`
+
