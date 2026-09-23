@@ -146,7 +146,7 @@ Building upon the foundational zero-storage fractal parameter synthesis introduc
 
 > **Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains**  
 > *Authors:* Volkan Dağlı, Dr. Zerrin Dağlı, Dağhan Dağlı  
-> *Zenodo Permanent Concept DOI:* [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22867425-024dad.svg)](https://doi.org/10.5281/zenodo.22867425) &bull; *arXiv Submission:* `arXiv:submit/8106948`  
+> *Zenodo Permanent Concept DOI:* [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22867425-024dad.svg)](https://doi.org/10.5281/zenodo.22867425) &bull; *arXiv Preprint:* [![arXiv](https://img.shields.io/badge/arXiv-2609.25498-b31b1b.svg)](https://arxiv.org/abs/2609.25498) &bull; DOI: [10.48550/arXiv.2609.25498](https://doi.org/10.48550/arXiv.2609.25498)  
 > *Engine Repository:* [github.com/pCwOrM/werr](https://github.com/pCwOrM/werr) &bull; *Live Decision Lab:* [pcworm.github.io/werr](https://pcworm.github.io/werr/)  
 > *Platform & Workspace:* [github.com/pCwOrM/answerr](https://github.com/pCwOrM/answerr) &bull; *Production Portal:* [answerr.me](https://answerr.me)
 
@@ -382,12 +382,15 @@ If you utilize this research, procedural weight generation methodology, or inter
 }
 
 @article{dagli2026werr,
-  title={Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains},
-  author={Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
-  journal={Zenodo Open Science Archive},
-  year={2026},
-  doi={10.5281/zenodo.22867425},
-  url={https://doi.org/10.5281/zenodo.22867425}
+  title         = {Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains},
+  author        = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  journal       = {arXiv preprint arXiv:2609.25498},
+  year          = {2026},
+  eprint        = {2609.25498},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2609.25498},
+  url           = {https://arxiv.org/abs/2609.25498}
 }
 ```
 
