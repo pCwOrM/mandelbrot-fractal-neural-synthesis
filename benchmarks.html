@@ -869,32 +869,72 @@
       <div class="bench-card">
         <div>
           <div class="bench-card-head">
-            <div class="bench-card-title">⚖️ JevBench Public Split (<a href="https://github.com/fstandhartinger/jevbench/issues/10" target="_blank" style="color: var(--cyan); text-decoration: underline;">Issue #10</a>)</div>
-            <div class="bench-metric-badge">Self-Run (0.4 ms)</div>
+            <div class="bench-card-title">⚖️ JevBench Cumulative Evolution & v1.4 Audit (<a href="https://github.com/fstandhartinger/jevbench/issues/10" target="_blank" style="color: var(--cyan); text-decoration: underline;">Issue #10</a>)</div>
+            <div class="bench-metric-badge">Cumulative (v1.2 / v1.3 / v1.4)</div>
           </div>
           <p class="bench-card-body" id="jevCardBody">
-            Formal REST wire format protocol benchmark (<code>POST /v1/systemone</code>) measuring discrete decision velocity, schema contracts (<code>noul</code>, <code>choice</code>, <code>score</code>), and memory footprint. Evaluated on the public test split (under review in <a href="https://github.com/fstandhartinger/jevbench/issues/10" target="_blank" style="color: var(--cyan); text-decoration: underline;">Issue #10</a>).
+            Formal REST wire format protocol benchmark (<code>POST /v1/systemone</code>) evaluated on 231 public tasks across Easy, Original, and Hard splits. Documented cumulatively across all development phases:
           </p>
+          <div style="overflow-x: auto; margin-bottom: 0.8rem;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 0.78rem; text-align: left; background: var(--bg-inner); border-radius: 6px;">
+              <thead>
+                <tr style="border-bottom: 1px solid var(--border); color: var(--text-muted);">
+                  <th style="padding: 4px 6px;">Run / Edition</th>
+                  <th style="padding: 4px 6px;">Overall Acc.</th>
+                  <th style="padding: 4px 6px;">Easy Split</th>
+                  <th style="padding: 4px 6px;">P50 Latency</th>
+                  <th style="padding: 4px 6px;">VRAM</th>
+                  <th style="padding: 4px 6px;">Standard Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.04);">
+                  <td style="padding: 4px 6px; font-weight: 600;">Run 1: Heuristic Calibrated</td>
+                  <td style="padding: 4px 6px;">74.80%</td>
+                  <td style="padding: 4px 6px;">85.42%</td>
+                  <td style="padding: 4px 6px;">2.58 ms</td>
+                  <td style="padding: 4px 6px; color: var(--emerald);">0 MB</td>
+                  <td style="padding: 4px 6px; color: var(--cyan);">81.36 (v1.2) / 76.90 (v1.3)</td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgba(255,255,255,0.04);">
+                  <td style="padding: 4px 6px; font-weight: 600; color: var(--emerald);">Run 2: Clean JevWireAdapter</td>
+                  <td style="padding: 4px 6px; font-weight: 600;">46.75%</td>
+                  <td style="padding: 4px 6px;">75.00%</td>
+                  <td style="padding: 4px 6px;">3.47 ms</td>
+                  <td style="padding: 4px 6px; color: var(--emerald);">0 MB</td>
+                  <td style="padding: 4px 6px;">Zero Task Strings (100% General)</td>
+                </tr>
+                <tr>
+                  <td style="padding: 4px 6px; font-weight: 600; color: var(--cyan);">Run 3: Clean Calibrated</td>
+                  <td style="padding: 4px 6px; font-weight: 600;">49.78%</td>
+                  <td style="padding: 4px 6px;">85.42%</td>
+                  <td style="padding: 4px 6px;">3.79 ms</td>
+                  <td style="padding: 4px 6px; color: var(--emerald);">0 MB</td>
+                  <td style="padding: 4px 6px;">ECE 0.2863 (Platt Calibrated)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <div class="bench-stats-row">
             <div class="bench-stat-item">
-              <span class="bench-stat-label">Execution</span>
-              <span class="bench-stat-value">0.40 ms</span>
+              <span class="bench-stat-label">Execution (CPU)</span>
+              <span class="bench-stat-value">3.47 ms</span>
             </div>
             <div class="bench-stat-item">
               <span class="bench-stat-label">Memory</span>
-              <span class="bench-stat-value">0 MB</span>
+              <span class="bench-stat-value">0 MB VRAM</span>
             </div>
             <div class="bench-stat-item">
-              <span class="bench-stat-label">Fidelity</span>
-              <span class="bench-stat-value">100.0%</span>
+              <span class="bench-stat-label">Clean Generalization</span>
+              <span class="bench-stat-value">Zero Rules</span>
             </div>
             <div class="bench-stat-item">
               <span class="bench-stat-label">Wire Protocol</span>
-              <span class="bench-stat-value">RFC-Compliant</span>
+              <span class="bench-stat-value">JevWireAdapter</span>
             </div>
           </div>
         </div>
-        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">
           <a href="https://github.com/fstandhartinger/jevbench/issues/10" target="_blank" class="btn-bench-action" style="flex: 1; min-width: 140px;">
             <span>🔗</span>
             <span id="btnJevIssue">View JevBench Issue #10</span>
