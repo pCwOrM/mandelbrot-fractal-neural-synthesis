@@ -59,3 +59,12 @@ turkpatent_hazirlik/
 zenodo_preprint_package/
 zenodo_bundle_orbital_error_dynamics.zip
 scratch/
+
+# Private Vault Phase 3 - Sealed Inferences and Roadmap
+private_vault_phase3/
+_isolated_test_vault/
+_isolated_test_vault.*
+*.rar
+arxiv/*.tar.gz
+arxiv/*.zip
+

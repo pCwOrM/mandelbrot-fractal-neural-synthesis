@@ -3,6 +3,7 @@
 [![Live Web Portal](https://img.shields.io/badge/Live%20Portal-GitHub%20Pages-10b981.svg?logo=github)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/)
 [![Interactive Labs](https://img.shields.io/badge/Interactive%20Labs-100%25%20Client--Side-818cf8.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/#labsTitle)
 [![Paper 2: OED Zenodo DOI](https://img.shields.io/badge/Paper%202%20DOI-10.5281%2Fzenodo.22896856-024dad.svg)](https://doi.org/10.5281/zenodo.22896856)
+[![Paper 4: Black Hole Page Curve DOI](https://img.shields.io/badge/Paper%204%20DOI-10.5281%2Fzenodo.22961999-024dad.svg)](https://doi.org/10.5281/zenodo.22961999)
 [![Patent Pending](https://img.shields.io/badge/Patent%20Pending-TR%202026%2F016285-red.svg)](https://epats.turkpatent.gov.tr)
 [![Paper 1: Zenodo Concept DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
 [![Companion Paper: WERR](https://img.shields.io/badge/Companion%20Paper-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
@@ -25,6 +26,7 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 
 | Platform / Document | Type | Target Audience | Direct Live Link |
 | :--- | :--- | :--- | :--- |
+| 🌌 **Paper 4: Black Hole Page Curve & Wormhole Error-Kernel** | Quantum Gravity & Thermodynamics | Physicists, Mathematicians & Open Science | [**Zenodo: 10.5281/zenodo.22962000**](https://zenodo.org/records/22962000) &bull; [**Concept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Documentation**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22962000/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v1.pdf/content) |
 | 🏛️ **Paper 2: Orbital Error Dynamics (Preprint)** | Academic Paper & Patent | Global / AI & Physics | [**Zenodo: 10.5281/zenodo.22896856**](https://doi.org/10.5281/zenodo.22896856) &bull; [**PDF (7 Pages)**](docs/Orbital_Error_Dynamics_Preprint.pdf) &bull; **Patent Pending: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Master Benchmark Wall | Researchers, Engineers & Challengers | [**Launch The Gauntlet (Benchmarks)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
 | 🌐 **Official Web Portal** | Showcase | Global / Academic | [**Launch Web Portal**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/) |
@@ -56,27 +58,27 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 
 ---
 
-## 🧭 Cumulative Research Architecture: The Three Phases
+## 🧭 Cumulative Research Architecture: The Four Scientific Frontiers
 
 This repository represents an evolving, cumulative multi-phase scientific and technological breakthrough:
 
 ```text
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                CUMULATIVE RESEARCH ROADMAP                                       │
-├────────────────────────────────┬────────────────────────────────┬────────────────────────────────┤
-│ PHASE I: FOUNDATIONAL (2026)   │ PHASE II: APPLIED ECOSYSTEM    │ PHASE III: PARADIGM SHIFT      │
-│ Paper 1: Fractal Neural Synth  │ WERR Engine & answerr Platform │ Paper 2: Orbital Error Dynam.  │
-├────────────────────────────────┼────────────────────────────────┼────────────────────────────────┤
-│ • 24-Byte Coordinate Seeds     │ • High-Speed Reflex Triage     │ • Self-Organized Criticality   │
-│ • 4-Quadrant Weight Derivation │ • System-1 Sub-ms Execution    │ • Bent Sine Wave & Cusp (1/4)  │
-│ • 100% Linear Gates (AND/OR..) │ • WindTunnel WebMCP 49/49 (1#) │ • Observer Horizon (life_view) │
-│ • 100% Non-Linear XOR Network  │ • JevBench World Record #1     │ • Zinc Spark Quantum Tunneling │
-│ • Pareto Resolution (128x128)  │ • Gymnasium Snake (302 mov/s)  │ • Enteric Dual-Brain & CD4+    │
-│ • Under Review: Chaos Solitons │ • Jevenator 2 (27.8x Vision)   │ • 5-Seed Split: XOR (99.80%),  │
-│ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons (99.40%), Spirals  │
-│                                │                                │ • PATENT PENDING: TR 2026/016285│
-│                                │                                │ • Zenodo DOI: 22896856         │
-└────────────────────────────────┴────────────────────────────────┴────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                  CUMULATIVE RESEARCH ROADMAP                                                     │
+├────────────────────────────────┬────────────────────────────────┬────────────────────────────────┬───────────────────────────────┤
+│ PHASE I: FOUNDATIONAL (2026)   │ PHASE II: APPLIED ECOSYSTEM    │ PHASE III: PARADIGM SHIFT      │ PHASE IV: FRONTIER QG (2026)  │
+│ Paper 1: Fractal Neural Synth  │ WERR Engine & answerr Platform │ Paper 2: Orbital Error Dynam.  │ Paper 4: BH Page Curve & WERR │
+├────────────────────────────────┼────────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│ • 24-Byte Coordinate Seeds     │ • High-Speed Reflex Triage     │ • Self-Organized Criticality   │ • Wormhole Error-Kernel K_err │
+│ • 4-Quadrant Weight Derivation │ • System-1 Sub-ms Execution    │ • Bent Sine Wave & Cusp (1/4)  │ • Z/9Z Modular Residue Ring   │
+│ • 100% Linear Gates (AND/OR..) │ • WindTunnel WebMCP 49/49 (1#) │ • Observer Horizon (life_view) │ • TAMAMe Horizon Dynamics     │
+│ • 100% Non-Linear XOR Network  │ • JevBench World Record #1     │ • Zinc Spark Quantum Tunneling │ • 40-Core Dual Xeon Gauntlet  │
+│ • Pareto Resolution (128x128)  │ • Gymnasium Snake (302 mov/s)  │ • Enteric Dual-Brain & CD4+    │ • Unitarity: S_final = 0.0000 │
+│ • Under Review: Chaos Solitons │ • Jevenator 2 (27.8x Vision)   │ • 5-Seed Split: XOR (99.80%),  │ • Firewall Suppressed 573x    │
+│ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons (99.40%), Spirals  │ • Page Curve Fit: R^2 = 0.982 │
+│                                │                                │ • PATENT PENDING: TR 2026/016285│ • Concept DOI: 22961999       │
+│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Record: 22962000     │
+└────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴───────────────────────────────┘
 ```
 
 ---
@@ -391,6 +393,17 @@ If you utilize this research, procedural weight generation methodology, or inter
   primaryClass  = {cs.AI},
   doi           = {10.48550/arXiv.2609.25498},
   url           = {https://arxiv.org/abs/2609.25498}
+}
+
+@article{dagli2026wormhole,
+  title        = {A Wormhole Error-Kernel with Tension, Blind-Spot and Seek Functions: A Conceptual Proposal and Exploratory Toy Simulation of the Black Hole Page Curve},
+  author       = {Da{\u{g}}l{\i}, Mert and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  journal      = {Zenodo Open Science Archive},
+  year         = {2026},
+  month        = {September},
+  doi          = {10.5281/zenodo.22962000},
+  url          = {https://doi.org/10.5281/zenodo.22962000},
+  note         = {Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
 }
 ```
 

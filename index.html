@@ -951,6 +951,10 @@
         <span>🏛️</span>
         <span>Zenodo: 10.5281/zenodo.22896856</span>
       </a>
+      <a href="https://doi.org/10.5281/zenodo.22961999" target="_blank" class="btn-hero btn-secondary" style="border-color: rgba(168, 85, 247, 0.5); background: rgba(88, 28, 135, 0.2);">
+        <span>🌌</span>
+        <span>Paper 4: Black Hole Page Curve (Zenodo: 22962000)</span>
+      </a>
       <a href="benchmarks.html" class="btn-hero btn-primary" style="background: linear-gradient(135deg, #059669 0%, #0284c7 100%);">
         <span>⚔️</span>
         <span id="btnHeroGauntlet">The Gauntlet (Benchmarks)</span>
@@ -1396,8 +1400,9 @@
     <p id="citeDesc">If you utilize this research, procedural weight generation methodology, or interactive visualizers, please cite our official preprints:</p>
     
     <div class="bibtex-tabs">
-      <button class="bibtex-tab active" id="tabBibPaper2">Paper 2: Orbital Error Dynamics (Patent Pending)</button>
-      <button class="bibtex-tab" id="tabBibPaper1">Paper 1: Fractal Neural Synthesis</button>
+      <button class="bibtex-tab active" id="tabBibPaper2" onclick="switchBibtex('paper2')">Paper 2: Orbital Error Dynamics (Patent Pending)</button>
+      <button class="bibtex-tab" id="tabBibPaper4" onclick="switchBibtex('paper4')">Paper 4: Black Hole Page Curve (WERR)</button>
+      <button class="bibtex-tab" id="tabBibPaper1" onclick="switchBibtex('paper1')">Paper 1: Fractal Neural Synthesis</button>
     </div>
 
     <!-- Bibtex Box Paper 2 -->
@@ -1411,6 +1416,21 @@
   doi={10.5281/zenodo.22896856},
   url={https://doi.org/10.5281/zenodo.22896856},
   note={Patent Pending: Turkish Patent and Trademark Office TR 2026/016285}
+}</div>
+    </div>
+
+    <!-- Bibtex Box Paper 4 -->
+    <div class="bibtex-box" id="boxBibPaper4" style="display: none;">
+      <button class="btn-copy" id="btnCopyBib4" onclick="copyBibtex('bibtexCode4', this)">Copy</button>
+      <div id="bibtexCode4">@article{dagli2026wormhole,
+  title={A Wormhole Error-Kernel with Tension, Blind-Spot and Seek Functions: A Conceptual Proposal and Exploratory Toy Simulation of the Black Hole Page Curve},
+  author={Da{\u{g}}l{\u{i}}, Mert and Da{\u{g}}l{\u{i}}, Zerrin and Da{\u{g}}l{\u{i}}, Da{\u{g}}han},
+  journal={Zenodo Open Science Archive},
+  year={2026},
+  month={September},
+  doi={10.5281/zenodo.22962000},
+  url={https://doi.org/10.5281/zenodo.22962000},
+  note={Concept DOI: 10.5281/zenodo.22961999}
 }</div>
     </div>
 
@@ -1601,6 +1621,7 @@
       citeTitle: "Citations (BibTeX)",
       citeDesc: "If you utilize this research, procedural weight generation methodology, or interactive visualizers, please cite our official preprints:",
       tabBibPaper2: "Paper 2: Orbital Error Dynamics (Patent Pending)",
+      tabBibPaper4: "Paper 4: Black Hole Page Curve (WERR)",
       tabBibPaper1: "Paper 1: Fractal Neural Synthesis"
     },
     tr: {
@@ -1699,6 +1720,7 @@
       citeTitle: "Akademik Atıflar (BibTeX)",
       citeDesc: "Bu çalışmayı, fraktal sentez yöntemini veya interaktif laboratuvarları çalışmalarınızda kullanırsanız lütfen resmi preprint kayıtlarımıza atıfta bulununuz:",
       tabBibPaper2: "Paper 2: Yörünge Hata Dinamikleri (Patent Başvurusu Yapıldı)",
+      tabBibPaper4: "Paper 4: Kara Delik Page Eğrisi (WERR)",
       tabBibPaper1: "Paper 1: Fraktal Nöral Sentezi"
     }
   };
@@ -1780,19 +1802,23 @@
   window.switchBibtex = function(tabKey) {
     const tab1 = document.getElementById('tabBibPaper1');
     const tab2 = document.getElementById('tabBibPaper2');
+    const tab4 = document.getElementById('tabBibPaper4');
     const box1 = document.getElementById('boxBibPaper1');
     const box2 = document.getElementById('boxBibPaper2');
+    const box4 = document.getElementById('boxBibPaper4');
+
+    [tab1, tab2, tab4].forEach(t => t && t.classList.remove('active'));
+    [box1, box2, box4].forEach(b => b && (b.style.display = 'none'));
 
     if (tabKey === 'paper1') {
-      tab1.classList.add('active');
-      tab2.classList.remove('active');
-      box1.style.display = 'block';
-      box2.style.display = 'none';
+      if (tab1) tab1.classList.add('active');
+      if (box1) box1.style.display = 'block';
+    } else if (tabKey === 'paper4') {
+      if (tab4) tab4.classList.add('active');
+      if (box4) box4.style.display = 'block';
     } else {
-      tab2.classList.add('active');
-      tab1.classList.remove('active');
-      box2.style.display = 'block';
-      box1.style.display = 'none';
+      if (tab2) tab2.classList.add('active');
+      if (box2) box2.style.display = 'block';
     }
   };
 
@@ -1924,6 +1950,7 @@
     if (document.getElementById('citeDesc')) document.getElementById('citeDesc').innerText = d.citeDesc;
     if (document.getElementById('tabBibPaper1')) document.getElementById('tabBibPaper1').innerText = d.tabBibPaper1;
     if (document.getElementById('tabBibPaper2')) document.getElementById('tabBibPaper2').innerText = d.tabBibPaper2;
+    if (document.getElementById('tabBibPaper4')) document.getElementById('tabBibPaper4').innerText = d.tabBibPaper4;
 
     // Theme label sync
     const isDark = document.documentElement.classList.contains('dark');

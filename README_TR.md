@@ -3,6 +3,7 @@
 [![Canlı Web Portalı](https://img.shields.io/badge/Canlı%20Portal-GitHub%20Pages-10b981.svg?logo=github)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/)
 [![İnteraktif Laboratuvarlar](https://img.shields.io/badge/İnteraktif%20Laboratuvarlar-%25100%20Tarayıcıda%20Çalışır-818cf8.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/#labsTitle)
 [![Paper 2: OED Zenodo DOI](https://img.shields.io/badge/Paper%202%20DOI-10.5281%2Fzenodo.22896856-024dad.svg)](https://doi.org/10.5281/zenodo.22896856)
+[![Paper 4: Kara Delik Page Eğrisi DOI](https://img.shields.io/badge/Paper%204%20DOI-10.5281%2Fzenodo.22961999-024dad.svg)](https://doi.org/10.5281/zenodo.22961999)
 [![Patent Başvurusu](https://img.shields.io/badge/Patent%20Başvurusu-TR%202026%2F016285-red.svg)](https://epats.turkpatent.gov.tr)
 [![Paper 1: Zenodo Çatı DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
 [![Kardeş Makale: WERR](https://img.shields.io/badge/Kardeş%20Makale-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
@@ -24,6 +25,7 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 
 | Platform / Belge | Tür | Hedef Kitle | Doğrudan Canlı Bağlantı |
 | :--- | :--- | :--- | :--- |
+| 🌌 **Paper 4: Kara Delik Page Eğrisi ve Solucan Deliği Hata Çekirdeği** | Kuantum Kütleçekimi & Termodinamik | Fizikçiler, Matematikçiler & Açık Bilim | [**Zenodo: 10.5281/zenodo.22962000**](https://zenodo.org/records/22962000) &bull; [**Konsept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Dokümantasyon**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22962000/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v1.pdf/content) |
 | 🏛️ **Paper 2: Yörünge Hata Dinamikleri (OED)** | Resmi Ön Baskı & Patent | Küresel / Yapay Zeka & Fizik | [**Zenodo: 10.5281/zenodo.22896856**](https://doi.org/10.5281/zenodo.22896856) &bull; [**PDF (7 Sayfa)**](docs/Orbital_Error_Dynamics_Preprint.pdf) &bull; **Patent No: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Kıyaslama Duvarı & Meydan Okuma | Araştırmacılar, Mühendisler & Meydan Okuyanlar | [**Kıyaslama Duvarını Aç (The Gauntlet)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
 | 🌐 **Resmi Canlı Web Portalı** | Ana Vitrin & Galeri | Genel / Akademik | [**Portalı Başlat (GitHub Pages)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/) |
@@ -54,27 +56,27 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 
 ---
 
-## 🧭 Kümülatif Araştırma Mimarisi: Üç Aşama (Three Phases)
+## 🧭 Kümülatif Araştırma Mimarisi: Dört Bilimsel Cephe (Four Frontiers)
 
 Bu depo, birbiri üzerine inşa edilen ve kümülatif olarak genişleyen çok aşamalı bilimsel ve teknolojik atılımı temsil eder:
 
 ```text
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 KÜMÜLATİF ARAŞTIRMA YOL HARİTASI                                 │
-├────────────────────────────────┬────────────────────────────────┬────────────────────────────────┤
-│ AŞAMA I: TEMEL ATILIM (2026)   │ AŞAMA II: UYGULAMALI EKOSİSTEM │ AŞAMA III: PARADİGMA DÖNÜŞÜMÜ  │
-│ Paper 1: Fraktal Nöron Sentezi │ WERR Motoru & answerr Platform │ Paper 2: Yörünge Hata Dinamiği │
-├────────────────────────────────┼────────────────────────────────┼────────────────────────────────┤
-│ • 24-Bayt Koordinat Tohumları  │ • Yüksek Hızlı Refleks Triyajı │ • Kendi Kendine Organize Kritik│
-│ • 4-Quadrant Ağırlık Türetimi  │ • Sistem-1 Milisaniye-Altı İcra│ • Bükük Sinüs & Cusp (1/4)     │
-│ • %100 Mantık Kapıları (AND/OR)│ • WindTunnel WebMCP 49/49 (#1) │ • Gözlemci Ufku (`life_view`)  │
-│ • %100 Doğrusal Olmayan XOR    │ • JevBench Dünya Rekoru (#1)   │ • Çinko Kıvılcımı Tünellemesi  │
-│ • Pareto Çözünürlük (128x128)  │ • Gymnasium Yılan (302 hamle/s)│ • Enterik Çift-Beyin & CD4+    │
-│ • İncelemede: Chaos Solitons   │ • Jevenator 2 (27.8x Görü)     │ • 5-Tohumlu Split: XOR %99.80, │
-│ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons %99.40, Spirals    │
-│                                │                                │ • PATENT BAŞVURUSU: 2026/016285│
-│                                │                                │ • Zenodo DOI: 22896856         │
-└────────────────────────────────┴────────────────────────────────┴────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                 KÜMÜLATİF ARAŞTIRMA YOL HARİTASI                                                 │
+├────────────────────────────────┬────────────────────────────────┬────────────────────────────────┬───────────────────────────────┤
+│ AŞAMA I: TEMEL ATILIM (2026)   │ AŞAMA II: UYGULAMALI EKOSİSTEM │ AŞAMA III: PARADİGMA DÖNÜŞÜMÜ  │ AŞAMA IV: KUANTUM KÜTLEÇEKİMİ │
+│ Paper 1: Fraktal Nöron Sentezi │ WERR Motoru & answerr Platform │ Paper 2: Yörünge Hata Dinamiği │ Paper 4: Kara Delik & WERR    │
+├────────────────────────────────┼────────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│ • 24-Bayt Koordinat Tohumları  │ • Yüksek Hızlı Refleks Triyajı │ • Kendi Kendine Organize Kritik│ • Solucan Deliği Hata Çekirdek│
+│ • 4-Quadrant Ağırlık Türetimi  │ • Sistem-1 Milisaniye-Altı İcra│ • Bükük Sinüs & Cusp (1/4)     │ • Z/9Z Modüler Artık Halkası  │
+│ • %100 Mantık Kapıları (AND/OR)│ • WindTunnel WebMCP 49/49 (#1) │ • Gözlemci Ufku (`life_view`)  │ • TAMAMe Ufuk Dinamikleri     │
+│ • %100 Doğrusal Olmayan XOR    │ • JevBench Dünya Rekoru (#1)   │ • Çinko Kıvılcımı Tünellemesi  │ • 40 Çekirdekli Xeon Gauntlet │
+│ • Pareto Çözünürlük (128x128)  │ • Gymnasium Yılan (302 hamle/s)│ • Enterik Çift-Beyin & CD4+    │ • Üniterlik: S_son = 0.0000   │
+│ • İncelemede: Chaos Solitons   │ • Jevenator 2 (27.8x Görü)     │ • 5-Tohumlu Split: XOR %99.80, │ • Ateş Duvarı 573x Bastırıldı │
+│ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons %99.40, Spirals    │ • Page Eğrisi Uyumu: R^2=0.982│
+│                                │                                │ • PATENT BAŞVURUSU: 2026/016285│ • Konsept DOI: 22961999       │
+│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Kaydı: 22962000      │
+└────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴───────────────────────────────┘
 ```
 
 ---
@@ -389,6 +391,17 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   primaryClass  = {cs.AI},
   doi           = {10.48550/arXiv.2609.25498},
   url           = {https://arxiv.org/abs/2609.25498}
+}
+
+@article{dagli2026wormhole,
+  title        = {A Wormhole Error-Kernel with Tension, Blind-Spot and Seek Functions: A Conceptual Proposal and Exploratory Toy Simulation of the Black Hole Page Curve},
+  author       = {Da{\u{g}}l{\i}, Mert and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  journal      = {Zenodo Open Science Archive},
+  year         = {2026},
+  month        = {September},
+  doi          = {10.5281/zenodo.22962000},
+  url          = {https://doi.org/10.5281/zenodo.22962000},
+  note         = {Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
 }
 ```
 
