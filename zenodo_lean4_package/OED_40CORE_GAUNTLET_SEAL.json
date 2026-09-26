@@ -1,0 +1,38 @@
+{
+  "seal_sha256": "94ddaefb17989c9031697779d95f35f7cd5ea3a2bea36ef4c91db1a270061550",
+  "verified_at": "2026-09-25T03:22:00Z",
+  "payload": {
+    "timestamp": "2026-09-25T03:10:21Z",
+    "hardware": {
+      "cpu": "Dual Intel Xeon E5-2630 v4 (20C/40T)",
+      "ram": "256GB DDR4 ECC",
+      "os": "Ubuntu 24.04.5 LTS",
+      "kernel": "6.8.0-78-generic",
+      "governor": "performance (40 cores)"
+    },
+    "gauntlet_metrics": {
+      "total_decisions": 100000,
+      "execution_time_s": 6.49,
+      "aggregate_throughput_dps": 15397.4,
+      "mean_latency_ms": 2.337,
+      "p50_latency_ms": 2.349,
+      "p95_latency_ms": 2.399,
+      "p99_latency_ms": 2.413,
+      "vram_bytes": 0,
+      "seed_bytes": 24
+    },
+    "zinc_spark_metrics": {
+      "trials": 1000,
+      "escape_rate_pct": 86.9,
+      "time_per_spark_us": 20.22,
+      "status": "PASSED"
+    },
+    "cd4_immune_metrics": {
+      "packets": 10000,
+      "pathogen_suppression_pct": 100.0,
+      "clean_signal_preservation_pct": 89.6,
+      "throughput_pps": 8596523,
+      "status": "PASSED"
+    }
+  }
+}

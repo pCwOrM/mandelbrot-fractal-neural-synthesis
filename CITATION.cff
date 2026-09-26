@@ -64,3 +64,16 @@ references:
     doi: "10.5281/zenodo.22962000"
     year: 2026
     notes: "Concept DOI: 10.5281/zenodo.22961999"
+  - type: article
+    authors:
+      - family-names: "Dağlı"
+        given-names: "Volkan"
+      - family-names: "Dağlı"
+        given-names: "Zerrin"
+      - family-names: "Dağlı"
+        given-names: "Dağhan"
+    title: "Zero-Storage Procedural Neural Synthesis via Boundary Dynamics: Formal Verification in Lean 4 and Bare-Metal Gauntlet Validation"
+    doi: "10.5281/zenodo.22974544"
+    year: 2026
+    notes: "Formally verified in Lean 4 (Mathlib4, 0 sorry). 40-core bare-metal gauntlet benchmark verified. TÜRKPATENT Priority: TR 2026/016285."
+

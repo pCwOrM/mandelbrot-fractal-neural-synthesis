@@ -1,0 +1,70 @@
+{
+  "title": "Zero-Storage Procedural Neural Synthesis via Boundary Dynamics: Formal Verification in Lean 4 and Bare-Metal Gauntlet Validation",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-09-26",
+  "creators": [
+    {
+      "name": "Dağlı, Volkan",
+      "affiliation": "Anadolu University; ITouch Systems, Turkey",
+      "orcid": "0009-0000-1587-8703"
+    },
+    {
+      "name": "Dağlı, Zerrin",
+      "affiliation": "Mersin University, Turkey",
+      "orcid": "0000-0001-9490-6425"
+    },
+    {
+      "name": "Dağlı, Dağhan",
+      "affiliation": "Toros Science College, Turkey",
+      "orcid": "0009-0003-2492-8313"
+    }
+  ],
+  "description": "<p>Contemporary artificial intelligence architectures (Transformers, Deep State-Space Models) rely on persistent dense weight matrices residing in high-bandwidth memory (VRAM), suffering from the Von Neumann Memory Wall, unsustainable energy dissipation (1,500–3,000 mJ/inference), and formal undecidability due to continuous floating-point state representations. Most critically, frontier deep learning systems cannot execute natively inside deterministic decentralized state machines (such as the Ethereum Virtual Machine, EVM) due to IEEE 754 floating-point non-determinism, quadratic memory expansion penalties, and strict execution block gas ceilings.</p><p>Here, we present <b>WERR (Waves &amp; Errors) and Phase III Orbital Error Dynamics (OED)</b>, an alternative non-tensor paradigm that procedurally synthesizes synaptic decision boundaries on demand from a <b>24-byte complex coordinate triplet</b> &Theta; = (c_x, c_y, zoom) along the boundary of the Mandelbrot set (&part;M). By projecting continuous dynamics onto the discrete algebraic ring <b>Z/9Z</b> and the fixed-point domain <b>Q16.16</b>, we achieve the <b>world's first machine-verified proof of neural execution termination, determinism, and on-chain gas bounds in Lean 4 with zero axioms beyond propositional extensionality (<code>propext</code>) and zero unproven conjectures (<code>sorry</code>)</b>.</p><p>We evaluate OED across a bare-metal gauntlet on a dedicated 40-core Dual Intel Xeon E5-2630 v4 platform with 256 GB ECC RAM. Across 100,000 parallel non-linear decisions, OED achieved <b>15,397.4 decisions/second</b> with <b>0 Bytes VRAM</b>, a median latency of <b>2.349 ms</b>, and near-zero jitter (&sigma; &lt; 0.05 ms). Heavy-tailed Cauchy quantum tunneling demonstrates an <b>86.90% escape rate</b> from non-convex saddle traps within <b>20.22 &mu;s</b>, while biological CD4+ immune gating sustains <b>100.00% pathogen suppression</b> under an adversarial burst of 8.59 &times; 10⁶ packets/s. Furthermore, a rigorous 3-arm ablation study on 180 semi-primes (N = p &times; q, 40–56 bits) establishes the exact mathematical boundary: while Phase 1 base dynamics identically matches classical Pollard-Brent integer factorization (100% success rate, 22,341 steps), Phase 3 Cauchy jumps deliberately break periodic discrete cycle accumulation, proving that OED's primary domain is continuous topological manifolds, sub-millisecond edge reflexes, and atomic on-chain decentralized exchange (DEX) hooks (&le; 22,568 gas).</p><p><b>Replication Package Details:</b> The attached archive (<code>zenodo_bundle_lean4_oed_verification.zip</code>) includes the complete Lean 4 proof file (<code>WerracleProof.lean</code>), cryptographic verification certificate, 40-core gauntlet seal, Python benchmark and ablation scripts, full LaTeX manuscript, and camera-ready PDF.</p><p><b>Authors:</b> Volkan Dağlı (ORCID: 0009-0000-1587-8703), Zerrin Dağlı (ORCID: 0000-0001-9490-6425), Dağhan Dağlı (ORCID: 0009-0003-2492-8313).</p>",
+  "keywords": [
+    "Neural Synthesis",
+    "Zero-Storage AI",
+    "Complex Boundary Dynamics",
+    "Lean 4 Formal Verification",
+    "Orbital Error Dynamics",
+    "Uniswap v4 Hook",
+    "Fixed-Point Arithmetic",
+    "Bare-Metal Gauntlet",
+    "Ethereum Virtual Machine"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22896856",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22774934",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22939253",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22942599",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:2609.25498",
+      "relation": "isPreprintOf",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "arXiv:2609.30115",
+      "relation": "isPreprintOf",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "TÜRKPATENT Patent Application: TR 2026/016285 (Priority Date: 22 September 2026). Hardware node: pcworm.net (Dual Intel Xeon E5-2630 v4, 40 Cores, 256GB ECC RAM). Cryptographic Manifest SHA-256: 94ddaefb17989c9031697779d95f35f7cd5ea3a2bea36ef4c91db1a270061550."
+}

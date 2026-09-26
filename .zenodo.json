@@ -74,6 +74,12 @@
       "relation": "hasPart",
       "resource_type": "publication-preprint",
       "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22974544",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
     }
   ]
 }
