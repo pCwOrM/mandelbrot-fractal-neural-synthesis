@@ -49,12 +49,25 @@ This document contains pre-formatted Pull Request (PR) snippets, direct submissi
 ### D. `awesome-lean4` / `awesome-formal-methods`
 * **Target Repositories:**
   - [`svenmanthe/awesome-lean4`](https://github.com/svenmanthe/awesome-lean4)
-  - [`leanprover/lean4`](https://github.com/leanprover/lean4)
-* **PR / Issue Title:** `Add WERR Lean 4 Formal Verification: Cyclic Z/9Z Modular Resonant Grid`
-* **Category:** *Verified Dynamical Systems & Mathematical AI*
+  - [`leanprover-community/mathlib4`](https://github.com/leanprover-community/mathlib4)
+* **PR / Issue Title:** `Add Zero-Storage Neural Synthesis: Lean 4 Formal Verification (0 sorry) & 40-Core Gauntlet`
+* **Category:** *Verified Dynamical Systems / Mathematical AI / Open Science*
 * **Snippet to Add into `README.md`:**
 ```markdown
-- [WERR Lean 4 Verification](https://github.com/pCwOrM/werr/tree/main/formal) - Formalized machine proof in Lean 4 Mathlib (`ZMod 9`) proving modular invariant stability of the closed sub-ideal $\mathcal{I}_3 = \{0, 3, 6\} \cong 3\mathbb{Z}/9\mathbb{Z}$ for procedural fractal decision engines (-68.4% FLOPs reduction).
+- [Zero-Storage Neural Synthesis (Lean 4)](https://doi.org/10.5281/zenodo.22974544) - Machine-verified proof in Lean 4 (Mathlib4, 0 sorry) proving that neural decision boundaries can be synthesized dynamically from boundary dynamics without persistent weight tensors. Validated with a 40-core Dual Xeon gauntlet benchmark (15,397.4 dec/s, 0 Bytes VRAM). [Zenodo: 22974544](https://zenodo.org/records/22974544).
+```
+
+---
+
+### E. `awesome-pancakeswap-v4-hooks` / `pancakeswap/pancake-v4-hooks`
+* **Target Repositories:**
+  - [`pancakeswap/pancake-v4-hooks`](https://github.com/pancakeswap/pancake-v4-hooks)
+  - [`awesome-uniswap-v4-hooks`](https://github.com/topics/uniswap-v4-hooks)
+* **PR / Issue Title:** `Add PancakeWerracleHook: Dynamic Chaos-Adaptive Anti-LVR Fee Hook (<1ms, 0 SLOAD)`
+* **Category:** *Dynamic Fee Hooks / Anti-LVR / AI-Powered Execution*
+* **Snippet to Add into `README.md`:**
+```markdown
+- [PancakeWerracleHook](https://github.com/pCwOrM/werracle/blob/main/contracts/hooks/PancakeWerracleHook.sol) - PancakeSwap v4 dynamic fee & anti-LVR hook powered by Werracle on-chain AI. Intercepts `beforeSwap` to dynamically scale LP fees between 500 pips (0.05%) and 5,000 pips (0.50%) with zero persistent storage reads (0 SLOAD) in sub-millisecond execution.
 ```
 
 ---
