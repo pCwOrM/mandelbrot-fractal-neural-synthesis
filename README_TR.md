@@ -28,7 +28,7 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 | Platform / Belge | Tür | Hedef Kitle | Doğrudan Canlı Bağlantı |
 | :--- | :--- | :--- | :--- |
 | 📜 **Paper 5: Lean 4 Formel Doğrulama & 40-Çekirdek Gauntlet** | Formel Makine İspatları & Bare-Metal Gauntlet | Mantıkçılar, Web3 Mimarları & Çekirdek AI | [**Zenodo: 10.5281/zenodo.22974544**](https://doi.org/10.5281/zenodo.22974544) &bull; [**Kayıt**](https://zenodo.org/records/22974544) &bull; [**Preprint PDF**](https://zenodo.org/records/22974544/files/Zero_Storage_Neural_Synthesis_Lean4_OED.pdf) &bull; [**Replikasyon Paketi**](https://zenodo.org/records/22974544/files/zenodo_bundle_lean4_oed_verification.zip) |
-| 🌌 **Paper 4: Kara Delik Page Eğrisi ve Solucan Deliği Hata Çekirdeği** | Kuantum Kütleçekimi & Termodinamik | Fizikçiler, Matematikçiler & Açık Bilim | [**Zenodo: 10.5281/zenodo.22962000**](https://zenodo.org/records/22962000) &bull; [**Konsept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Dokümantasyon**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22962000/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v1.pdf/content) |
+| 🌌 **Paper 4: Kara Delik Page Eğrisi ve Solucan Deliği Hata Çekirdeği** | Kuantum Kütleçekimi & Termodinamik | Fizikçiler, Matematikçiler & Açık Bilim | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Konsept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Dokümantasyon**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
 | 🏛️ **Paper 2: Yörünge Hata Dinamikleri (OED)** | Resmi Ön Baskı & Patent | Küresel / Yapay Zeka & Fizik | [**Zenodo: 10.5281/zenodo.22896856**](https://doi.org/10.5281/zenodo.22896856) &bull; [**PDF (7 Sayfa)**](docs/Orbital_Error_Dynamics_Preprint.pdf) &bull; **Patent No: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Kıyaslama Duvarı & Meydan Okuma | Araştırmacılar, Mühendisler & Meydan Okuyanlar | [**Kıyaslama Duvarını Aç (The Gauntlet)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
 | 🌐 **Resmi Canlı Web Portalı** | Ana Vitrin & Galeri | Genel / Akademik | [**Portalı Başlat (GitHub Pages)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/) |
@@ -89,7 +89,7 @@ Bu depo, birbiri üzerine inşa edilen ve kümülatif olarak genişleyen çok a�
 │ • İncelemede: Chaos Solitons   │ • Jevenator 2 (27.8x Görü)     │ • 5-Tohumlu Split: XOR %99.80, │ • Ateş Duvarı 573x Bastırıldı │ • 15.397,4 karar/s (0 Bayt VM)│
 │ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons %99.40, Spirals    │ • Page Eğrisi Uyumu: R^2=0.982│ • %86,9 Cauchy Kaçışı (20us)  │
 │                                │                                │ • PATENT BAŞVURUSU: 2026/016285│ • Konsept DOI: 22961999       │ • 3-Kollu Ablasyon (180 Asal) │
-│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Kaydı: 22962000      │ • Zenodo DOI: 22974544        │
+│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Kaydı: 22978460 (v2)      │ • Zenodo DOI: 22974544        │
 └────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
@@ -100,7 +100,7 @@ Bu depo, birbiri üzerine inşa edilen ve kümülatif olarak genişleyen çok a�
   </a>
 </p>
 
-> **Şekil:** 40 çekirdekli Dual Intel Xeon sunucusu üzerinde gerçekleştirilen buharlaşma simülasyonu; Don Page eğrisini doğrulayarak ($S_{\text{son}} = 0.0000\text{ nats}$, $R^2 = \%98.22$) ve AMPS ateş duvarı şok dalgasını $573\times$ oranında bastırarak üniter kuantum enformasyonunun korunduğunu kanıtlar. Ayrıntılı [Araştırma Raporu](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) veya [CERN Zenodo Kaydı](https://zenodo.org/records/22962000).
+> **Şekil:** 40 çekirdekli Dual Intel Xeon sunucusu üzerinde gerçekleştirilen buharlaşma simülasyonu; Don Page eğrisini doğrulayarak ($S_{\text{son}} = 0.0000\text{ nats}$, $R^2 = \%98.22$) ve AMPS ateş duvarı şok dalgasını $573\times$ oranında bastırarak üniter kuantum enformasyonunun korunduğunu kanıtlar. Ayrıntılı [Araştırma Raporu](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) veya [CERN Zenodo Kaydı](https://zenodo.org/records/22978460).
 
 ---
 
@@ -422,8 +422,8 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   journal      = {Zenodo Open Science Archive},
   year         = {2026},
   month        = {September},
-  doi          = {10.5281/zenodo.22962000},
-  url          = {https://doi.org/10.5281/zenodo.22962000},
+  doi          = {10.5281/zenodo.22978460},
+  url          = {https://doi.org/10.5281/zenodo.22978460},
   note         = {Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
 }
 

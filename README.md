@@ -29,7 +29,7 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 | Platform / Document | Type | Target Audience | Direct Live Link |
 | :--- | :--- | :--- | :--- |
 | 📜 **Paper 5: Lean 4 Formal Verification & 40-Core Gauntlet** | Formal Machine Proofs & Bare-Metal Gauntlet | Logicians, Web3 Architects & Core AI | [**Zenodo: 10.5281/zenodo.22974544**](https://doi.org/10.5281/zenodo.22974544) &bull; [**Record**](https://zenodo.org/records/22974544) &bull; [**Preprint PDF**](https://zenodo.org/records/22974544/files/Zero_Storage_Neural_Synthesis_Lean4_OED.pdf) &bull; [**Replication Bundle**](https://zenodo.org/records/22974544/files/zenodo_bundle_lean4_oed_verification.zip) |
-| 🌌 **Paper 4: Black Hole Page Curve & Wormhole Error-Kernel** | Quantum Gravity & Thermodynamics | Physicists, Mathematicians & Open Science | [**Zenodo: 10.5281/zenodo.22962000**](https://zenodo.org/records/22962000) &bull; [**Concept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Documentation**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22962000/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v1.pdf/content) |
+| 🌌 **Paper 4: Black Hole Page Curve & Wormhole Error-Kernel** | Quantum Gravity & Thermodynamics | Physicists, Mathematicians & Open Science | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Concept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Documentation**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
 | 🏛️ **Paper 2: Orbital Error Dynamics (Preprint)** | Academic Paper & Patent | Global / AI & Physics | [**Zenodo: 10.5281/zenodo.22896856**](https://doi.org/10.5281/zenodo.22896856) &bull; [**PDF (7 Pages)**](docs/Orbital_Error_Dynamics_Preprint.pdf) &bull; **Patent Pending: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Master Benchmark Wall | Researchers, Engineers & Challengers | [**Launch The Gauntlet (Benchmarks)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
 | 🌐 **Official Web Portal** | Showcase | Global / Academic | [**Launch Web Portal**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/) |
@@ -91,7 +91,7 @@ This repository represents an evolving, cumulative multi-phase scientific and te
 │ • Under Review: Chaos Solitons │ • Jevenator 2 (27.8x Vision)   │ • 5-Seed Split: XOR (99.80%),  │ • Firewall Suppressed 573x    │ • 15,397.4 dec/s (0 Bytes VM) │
 │ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons (99.40%), Spirals  │ • Page Curve Fit: R^2 = 0.982 │ • 86.9% Cauchy Escape in 20us │
 │                                │                                │ • PATENT PENDING: TR 2026/016285│ • Concept DOI: 22961999       │ • 3-Arm Ablation (180 Primes) │
-│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Record: 22962000     │ • Zenodo DOI: 22974544        │
+│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Record: 22978460 (v2)     │ • Zenodo DOI: 22974544        │
 └────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
@@ -102,7 +102,7 @@ This repository represents an evolving, cumulative multi-phase scientific and te
   </a>
 </p>
 
-> **Figure:** Bare-metal 40-core Dual Intel Xeon numerical simulation of black hole evaporation and the Don Page curve ($S_{\text{final}} = 0.0000\text{ nats}$, $R^2 = 0.9822$), proving non-dissipative unitary recovery and suppressing the AMPS firewall shockwave by $573\times$ via modular error-kernels ($\mathcal{K}_{\text{error}} \subset \mathbb{Z}/9\mathbb{Z}$). Read the full [Research Monograph](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) or access the [CERN Zenodo Record](https://zenodo.org/records/22962000).
+> **Figure:** Bare-metal 40-core Dual Intel Xeon numerical simulation of black hole evaporation and the Don Page curve ($S_{\text{final}} = 0.0000\text{ nats}$, $R^2 = 0.9822$), proving non-dissipative unitary recovery and suppressing the AMPS firewall shockwave by $573\times$ via modular error-kernels ($\mathcal{K}_{\text{error}} \subset \mathbb{Z}/9\mathbb{Z}$). Read the full [Research Monograph](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) or access the [CERN Zenodo Record](https://zenodo.org/records/22978460).
 
 ---
 
@@ -424,8 +424,8 @@ If you utilize this research, procedural weight generation methodology, or inter
   journal      = {Zenodo Open Science Archive},
   year         = {2026},
   month        = {September},
-  doi          = {10.5281/zenodo.22962000},
-  url          = {https://doi.org/10.5281/zenodo.22962000},
+  doi          = {10.5281/zenodo.22978460},
+  url          = {https://doi.org/10.5281/zenodo.22978460},
   note         = {Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
 }
 
