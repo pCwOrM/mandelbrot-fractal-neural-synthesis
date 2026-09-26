@@ -130,15 +130,14 @@ for text in legend.get_texts():
     text.set_color('#f1f5f9')
 
 # -----------------------------------------------------------------------------
-# 5. FOOTER BANNER
+# 5. FOOTER BANNER (SLEEK LAB-GRADE METADATA BAR)
 # -----------------------------------------------------------------------------
 ax_footer = fig.add_subplot(gs[2, :])
 ax_footer.axis('off')
 
-ax_footer.text(0.5, 0.65, "Formally Verified in Lean 4 (Mathlib4, 0 sorry)  •  Bare-Metal Sealed Cryptographic Hashes", 
-               ha='center', va='center', fontsize=11, fontweight='bold', color='#10b981')
-ax_footer.text(0.5, 0.20, "Authors: Volkan Dağlı (Anadolu Univ / ITouch) • Zerrin Dağlı (Mersin Univ) • Dağhan Dağlı (Toros Science College)", 
-               ha='center', va='center', fontsize=9.5, color='#64748b')
+footer_text = "Zenodo DOI: 10.5281/zenodo.22974544   │   Lean 4: Mathlib4 (0 sorry)   │   Code: github.com/pCwOrM/werr   │   SHA-256 Sealed"
+ax_footer.text(0.5, 0.45, footer_text, 
+               ha='center', va='center', fontsize=11, color='#94a3b8', fontfamily='monospace')
 
 # Ensure output directory exists
 os.makedirs("figures", exist_ok=True)
