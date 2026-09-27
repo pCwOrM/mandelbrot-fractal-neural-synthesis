@@ -51,6 +51,7 @@ private_archive_rsa/
 
 # TÜRKPATENT Local Administrative Submissions & Applicant Receipts
 turkpatent_hazirlik/
+turkpatent_werrsoma/
 *.tahakkuk
 *dekont*
 *makbuz*
@@ -58,6 +59,8 @@ turkpatent_hazirlik/
 # Zenodo local packaging bundle build files
 zenodo_preprint_package/
 zenodo_bundle_orbital_error_dynamics.zip
+zenodo_werrsoma/
+blackhole_v3_package/*.zip
 scratch/
 
 # Private Vault Phase 3 - Sealed Inferences and Roadmap
