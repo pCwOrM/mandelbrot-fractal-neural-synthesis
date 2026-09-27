@@ -5,6 +5,10 @@
 [![Paper 2: OED Zenodo DOI](https://img.shields.io/badge/Paper%202%20DOI-10.5281%2Fzenodo.22896856-024dad.svg)](https://doi.org/10.5281/zenodo.22896856)
 [![Paper 4: Black Hole Page Curve DOI](https://img.shields.io/badge/Paper%204%20DOI-10.5281%2Fzenodo.22961999-024dad.svg)](https://doi.org/10.5281/zenodo.22961999)
 [![Paper 5: Lean 4 Formal Verification DOI](https://img.shields.io/badge/Paper%205%20DOI-10.5281%2Fzenodo.22983889%20(v2)-9333ea.svg)](https://doi.org/10.5281/zenodo.22983889)
+[![Paper 6: Drosophila Whole-Brain Connectome DOI](https://img.shields.io/badge/Paper%206%20DOI-10.5281%2Fzenodo.22996626-024dad.svg)](https://doi.org/10.5281/zenodo.22996626)
+[![WerrSoma Portal](https://img.shields.io/badge/WerrSoma%20Portal-lexovian.pcworm.net-00f0ff.svg)](https://lexovian.pcworm.net/)
+[![WerrSoma GitHub](https://img.shields.io/badge/WerrSoma-Whole--Brain%20158K%20Neurons-00f0ff.svg)](https://github.com/Lexovian/WerrSoma)
+[![Patent Priority: TR 2026/016633](https://img.shields.io/badge/Patent%20Priority-TR%202026%2F016633-red.svg)](https://doi.org/10.5281/zenodo.22996626)
 [![Lean 4 Verified: 0 Sorry](https://img.shields.io/badge/Formal%20Verification-Lean%204%20(0%20Sorry)-brightgreen.svg)](https://doi.org/10.5281/zenodo.22983889)
 [![Patent Pending](https://img.shields.io/badge/Patent%20Pending-TR%202026%2F016285-red.svg)](https://epats.turkpatent.gov.tr)
 [![Paper 1: Zenodo Concept DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
@@ -28,6 +32,7 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 
 | Platform / Document | Type | Target Audience | Direct Live Link |
 | :--- | :--- | :--- | :--- |
+| 🧬 **Paper 6: Bio-Synthetic Neuromorphic Interfacing (WerrSoma)** | Whole-Brain Drosophila Connectome (158K Neurons) & Zero-Memory Reflex Arc | Neurobiologists, BCI Engineers & Autonomous Systems | [**Zenodo: 10.5281/zenodo.22996626**](https://doi.org/10.5281/zenodo.22996626) &bull; [**Live 3D Portal**](https://lexovian.pcworm.net/) &bull; [**FlyWire Connectome Lab**](https://lexovian.pcworm.net/neuramap_werr_3d.html) &bull; [**3D Flight Sim**](https://lexovian.pcworm.net/fly_bioneural_flight_sim.html) &bull; [**GitHub: Lexovian/WerrSoma**](https://github.com/Lexovian/WerrSoma) &bull; **TÜRKPATENT Priority: TR 2026/016633** |
 | 📜 **Paper 5: Lean 4 Formal Verification & 40-Core Gauntlet** | Formal Machine Proofs & Bare-Metal Gauntlet | Logicians, Web3 Architects & Core AI | [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Record**](https://zenodo.org/records/22983889) &bull; [**Preprint PDF**](https://zenodo.org/records/22983889/files/Zero_Storage_Neural_Synthesis_Lean4_OED_v2.pdf) &bull; [**Replication Bundle**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
 | 🌌 **Paper 4: Black Hole Page Curve & Wormhole Error-Kernel** | Quantum Gravity & Thermodynamics | Physicists, Mathematicians & Open Science | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Concept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Documentation**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
 | 🏛️ **Paper 2: Orbital Error Dynamics (OED)** | Official Preprint & Patent | Global / AI & Physics | [**arXiv:2609.30115 [cs.NE]**](https://arxiv.org/abs/2609.30115) &bull; [**Zenodo: 10.5281/zenodo.22900465 (v3)**](https://doi.org/10.5281/zenodo.22900465) &bull; **Patent Pending: TR 2026/016285** |
@@ -438,6 +443,17 @@ If you utilize this research, procedural weight generation methodology, or inter
   doi          = {10.5281/zenodo.22983889},
   url          = {https://doi.org/10.5281/zenodo.22983889},
   note         = {Version 2.0; Concept DOI: 10.5281/zenodo.22974543; Formally verified in Lean 4 (Mathlib4, 0 sorry). 40-core bare-metal gauntlet benchmark verified. TÜRKPATENT Priority: TR 2026/016285.}
+}
+
+@article{dagli2026werrsoma,
+  title        = {Bio-Synthetic Neuromorphic Interfacing: In Silico Integration of the Princeton FlyWire Drosophila Whole-Brain Connectome (158K Neurons) with a Zero-Memory Fractal System-One Decision Engine (WERR)},
+  author       = {Da{\u{g}}l{\i}, Da{\u{g}}han and Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin},
+  journal      = {Zenodo Open Science Archive},
+  year         = {2026},
+  month        = {September},
+  doi          = {10.5281/zenodo.22996626},
+  url          = {https://doi.org/10.5281/zenodo.22996626},
+  note         = {158,169 neurons, 3.99M synapses. Sub-4ms latency, zero VRAM. TÜRKPATENT Priority: TR 2026/016633. Live 3D Portal: https://lexovian.pcworm.net/}
 }
 ```
 
