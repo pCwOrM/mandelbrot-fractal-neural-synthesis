@@ -3,9 +3,10 @@
 [![Canlı Web Portalı](https://img.shields.io/badge/Canlı%20Portal-GitHub%20Pages-10b981.svg?logo=github)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/)
 [![İnteraktif Laboratuvarlar](https://img.shields.io/badge/İnteraktif%20Laboratuvarlar-%25100%20Tarayıcıda%20Çalışır-818cf8.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/#labsTitle)
 [![Paper 2: OED Zenodo DOI](https://img.shields.io/badge/Paper%202%20DOI-10.5281%2Fzenodo.22896856-024dad.svg)](https://doi.org/10.5281/zenodo.22896856)
+[![arXiv: 2609.30115](https://img.shields.io/badge/arXiv-2609.30115-b31b1b.svg)](https://arxiv.org/abs/2609.30115)
 [![Paper 4: Kara Delik Page Eğrisi DOI](https://img.shields.io/badge/Paper%204%20DOI-10.5281%2Fzenodo.22961999-024dad.svg)](https://doi.org/10.5281/zenodo.22961999)
-[![Paper 5: Lean 4 Formel Doğrulama DOI](https://img.shields.io/badge/Paper%205%20DOI-10.5281%2Fzenodo.22974544-9333ea.svg)](https://doi.org/10.5281/zenodo.22974544)
-[![Lean 4 Doğrulanmış: 0 Sorry](https://img.shields.io/badge/Formel%20Doğrulama-Lean%204%20(0%20Sorry)-brightgreen.svg)](https://doi.org/10.5281/zenodo.22974544)
+[![Paper 5: Lean 4 Formel Doğrulama DOI](https://img.shields.io/badge/Paper%205%20DOI-10.5281%2Fzenodo.22983889%20(v2)-9333ea.svg)](https://doi.org/10.5281/zenodo.22983889)
+[![Lean 4 Doğrulanmış: 0 Sorry](https://img.shields.io/badge/Formel%20Doğrulama-Lean%204%20(0%20Sorry)-brightgreen.svg)](https://doi.org/10.5281/zenodo.22983889)
 [![Patent Başvurusu](https://img.shields.io/badge/Patent%20Başvurusu-TR%202026%2F016285-red.svg)](https://epats.turkpatent.gov.tr)
 [![Paper 1: Zenodo Çatı DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
 [![Kardeş Makale: WERR](https://img.shields.io/badge/Kardeş%20Makale-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
@@ -27,9 +28,9 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 
 | Platform / Belge | Tür | Hedef Kitle | Doğrudan Canlı Bağlantı |
 | :--- | :--- | :--- | :--- |
-| 📜 **Paper 5: Lean 4 Formel Doğrulama & 40-Çekirdek Gauntlet** | Formel Makine İspatları & Bare-Metal Gauntlet | Mantıkçılar, Web3 Mimarları & Çekirdek AI | [**Zenodo: 10.5281/zenodo.22974544**](https://doi.org/10.5281/zenodo.22974544) &bull; [**Kayıt**](https://zenodo.org/records/22974544) &bull; [**Preprint PDF**](https://zenodo.org/records/22974544/files/Zero_Storage_Neural_Synthesis_Lean4_OED.pdf) &bull; [**Replikasyon Paketi**](https://zenodo.org/records/22974544/files/zenodo_bundle_lean4_oed_verification.zip) |
+| 📜 **Paper 5: Lean 4 Formel Doğrulama & 40-Çekirdek Gauntlet** | Formel Makine İspatları & Bare-Metal Gauntlet | Mantıkçılar, Web3 Mimarları & Çekirdek AI | [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Kayıt**](https://zenodo.org/records/22983889) &bull; [**Preprint PDF**](https://zenodo.org/records/22983889/files/Zero_Storage_Neural_Synthesis_Lean4_OED_v2.pdf) &bull; [**Replikasyon Paketi**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
 | 🌌 **Paper 4: Kara Delik Page Eğrisi ve Solucan Deliği Hata Çekirdeği** | Kuantum Kütleçekimi & Termodinamik | Fizikçiler, Matematikçiler & Açık Bilim | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Konsept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Dokümantasyon**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
-| 🏛️ **Paper 2: Yörünge Hata Dinamikleri (OED)** | Resmi Ön Baskı & Patent | Küresel / Yapay Zeka & Fizik | [**Zenodo: 10.5281/zenodo.22896856**](https://doi.org/10.5281/zenodo.22896856) &bull; [**PDF (7 Sayfa)**](docs/Orbital_Error_Dynamics_Preprint.pdf) &bull; **Patent No: TR 2026/016285** |
+| 🏛️ **Paper 2: Yörünge Hata Dinamikleri (OED)** | Resmi Ön Baskı & Patent | Küresel / Yapay Zeka & Fizik | [**arXiv:2609.30115 [cs.NE]**](https://arxiv.org/abs/2609.30115) &bull; [**Zenodo: 10.5281/zenodo.22900465 (v3)**](https://doi.org/10.5281/zenodo.22900465) &bull; **Patent No: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Kıyaslama Duvarı & Meydan Okuma | Araştırmacılar, Mühendisler & Meydan Okuyanlar | [**Kıyaslama Duvarını Aç (The Gauntlet)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
 | 🌐 **Resmi Canlı Web Portalı** | Ana Vitrin & Galeri | Genel / Akademik | [**Portalı Başlat (GitHub Pages)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/) |
 | 🚀 **Halka Açık Deneyim Laboratuvarı** | Canlı Simülasyon | Toplum & Öğrenciler | [**Halk Laboratuvarını Aç**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/demos/interactive_lab.html) |
@@ -69,7 +70,7 @@ Bu depo, birbiri üzerine inşa edilen ve kümülatif olarak genişleyen çok a�
   <img src="figures/twitter_lean4_tesla_gauntlet.png" alt="Lean 4 Formel Doğrulama, 40-Çekirdek Gauntlet & Tesla 3-6-9 Harmonikleri" width="100%">
 </p>
 
-* **Lean 4 Makine İspatı:** Mathlib4 kütüphanesinde **sıfır `sorry`** aksiyomu ile %100 formel doğrulandı ([Zenodo: 10.5281/zenodo.22974544](https://doi.org/10.5281/zenodo.22974544)).
+* **Lean 4 Makine İspatı:** Mathlib4 kütüphanesinde **sıfır `sorry`** aksiyomu ile %100 formel doğrulandı ([Zenodo: 10.5281/zenodo.22983889 (v2)](https://doi.org/10.5281/zenodo.22983889)).
 * **40-Çekirdek Dual Xeon Gauntlet:** **0 Bytes VRAM** tüketimiyle **15.397,4 karar/saniye** işleme kapasitesi (2,337 ms deterministik gecikme).
 * **Tesla 3-6-9 Harmonik Rezonansı ($Z \pmod 9$):** Normal Akış (3), MEV / Türbülans (6) ve Flaş Kredi Saldırısı / Devre Kesici (9) durumlarının doğal modüler ayrışması.
 
@@ -89,7 +90,7 @@ Bu depo, birbiri üzerine inşa edilen ve kümülatif olarak genişleyen çok a�
 │ • İncelemede: Chaos Solitons   │ • Jevenator 2 (27.8x Görü)     │ • 5-Tohumlu Split: XOR %99.80, │ • Ateş Duvarı 573x Bastırıldı │ • 15.397,4 karar/s (0 Bayt VM)│
 │ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons %99.40, Spirals    │ • Page Eğrisi Uyumu: R^2=0.982│ • %86,9 Cauchy Kaçışı (20us)  │
 │                                │                                │ • PATENT BAŞVURUSU: 2026/016285│ • Konsept DOI: 22961999       │ • 3-Kollu Ablasyon (180 Asal) │
-│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Kaydı: 22978460 (v2)      │ • Zenodo DOI: 22974544        │
+│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Kaydı: 22978460 (v2) │ • Zenodo Kaydı: 22983889 (v2) │
 └────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
@@ -416,15 +417,28 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   url           = {https://arxiv.org/abs/2609.25498}
 }
 
+@article{dagli2026orbital,
+  title={Orbital Error Dynamics: Self-Organized Criticality, Ephemeral Parameter Resonance, and Non-Linear Biological Ontologies in Zero-Storage Neural Synthesis},
+  author={Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  journal={arXiv preprint arXiv:2609.30115},
+  year={2026},
+  eprint={2609.30115},
+  archivePrefix={arXiv},
+  primaryClass={cs.NE},
+  doi={10.5281/zenodo.22900465},
+  url={https://arxiv.org/abs/2609.30115},
+  note={Patent Pending: Turkish Patent and Trademark Office TR 2026/016285}
+}
+
 @article{dagli2026wormhole,
-  title        = {A Wormhole Error-Kernel with Tension, Blind-Spot and Seek Functions: A Conceptual Proposal and Exploratory Toy Simulation of the Black Hole Page Curve},
-  author       = {Da{\u{g}}l{\i}, Mert and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  title        = {Unitary Black Hole Page Curve Reconstruction via Wormhole Error-Kernel Invariants: Non-Dissipative State Preservation, 40-Core Bare-Metal Telemetry, and Formal Verification},
+  author       = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
   journal      = {Zenodo Open Science Archive},
   year         = {2026},
   month        = {September},
   doi          = {10.5281/zenodo.22978460},
   url          = {https://doi.org/10.5281/zenodo.22978460},
-  note         = {Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
+  note         = {Version 2.0; Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
 }
 
 @article{dagli2026lean4_oed,
@@ -433,9 +447,9 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   journal      = {Zenodo Open Science Archive},
   year         = {2026},
   month        = {September},
-  doi          = {10.5281/zenodo.22974544},
-  url          = {https://doi.org/10.5281/zenodo.22974544},
-  note         = {Formally verified in Lean 4 (Mathlib4, 0 sorry). 40-core bare-metal gauntlet benchmark verified. TÜRKPATENT Priority: TR 2026/016285.}
+  doi          = {10.5281/zenodo.22983889},
+  url          = {https://doi.org/10.5281/zenodo.22983889},
+  note         = {Version 2.0; Concept DOI: 10.5281/zenodo.22974543; Formally verified in Lean 4 (Mathlib4, 0 sorry). 40-core bare-metal gauntlet benchmark verified. TÜRKPATENT Priority: TR 2026/016285.}
 }
 ```
 
