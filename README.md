@@ -30,7 +30,7 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 | :--- | :--- | :--- | :--- |
 | 📜 **Paper 5: Lean 4 Formal Verification & 40-Core Gauntlet** | Formal Machine Proofs & Bare-Metal Gauntlet | Logicians, Web3 Architects & Core AI | [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Record**](https://zenodo.org/records/22983889) &bull; [**Preprint PDF**](https://zenodo.org/records/22983889/files/Zero_Storage_Neural_Synthesis_Lean4_OED_v2.pdf) &bull; [**Replication Bundle**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
 | 🌌 **Paper 4: Black Hole Page Curve & Wormhole Error-Kernel** | Quantum Gravity & Thermodynamics | Physicists, Mathematicians & Open Science | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Concept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Documentation**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
-| 🏛️ **Paper 2: Orbital Error Dynamics (Preprint)** | Academic Paper & Patent | Global / AI & Physics | [**Zenodo: 10.5281/zenodo.22896856**](https://doi.org/10.5281/zenodo.22896856) &bull; [**PDF (7 Pages)**](docs/Orbital_Error_Dynamics_Preprint.pdf) &bull; **Patent Pending: TR 2026/016285** |
+| 🏛️ **Paper 2: Orbital Error Dynamics (OED)** | Official Preprint & Patent | Global / AI & Physics | [**arXiv:2609.30115 [cs.NE]**](https://arxiv.org/abs/2609.30115) &bull; [**Zenodo: 10.5281/zenodo.22900465 (v3)**](https://doi.org/10.5281/zenodo.22900465) &bull; **Patent Pending: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Master Benchmark Wall | Researchers, Engineers & Challengers | [**Launch The Gauntlet (Benchmarks)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
 | 🌐 **Official Web Portal** | Showcase | Global / Academic | [**Launch Web Portal**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/) |
 | 🚀 **Citizen & Public Experience Lab** | Live Simulation | General Public & Students | [**Launch Public Lab**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/demos/interactive_lab.html) |
@@ -91,7 +91,7 @@ This repository represents an evolving, cumulative multi-phase scientific and te
 │ • Under Review: Chaos Solitons │ • Jevenator 2 (27.8x Vision)   │ • 5-Seed Split: XOR (99.80%),  │ • Firewall Suppressed 573x    │ • 15,397.4 dec/s (0 Bytes VM) │
 │ • Zenodo DOI: 22774934         │ • Zenodo DOI: 22867425         │   Two-Moons (99.40%), Spirals  │ • Page Curve Fit: R^2 = 0.982 │ • 86.9% Cauchy Escape in 20us │
 │                                │                                │ • PATENT PENDING: TR 2026/016285│ • Concept DOI: 22961999       │ • 3-Arm Ablation (180 Primes) │
-│                                │                                │ • Zenodo DOI: 22896856         │ • Zenodo Record: 22978460 (v2)│ • Zenodo Record: 22983889 (v2)│
+│                                │                                │ • Zenodo DOI: 22900465 (v3)    │ • Zenodo Record: 22978460 (v2)│ • Zenodo Record: 22983889 (v2)│
 └────────────────────────────────┴────────────────────────────────┴────────────────────────────────┴───────────────────────────────┴───────────────────────────────┘
 ```
 
