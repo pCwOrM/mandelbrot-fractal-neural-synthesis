@@ -28,6 +28,8 @@ wevv/
 werr/
 answerr/
 werracle/
+WerrSoma/
+WerrAileronControls/
 werr_rsa*.py
 tests/*
 !tests/test_fractal_core.py
