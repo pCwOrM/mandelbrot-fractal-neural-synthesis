@@ -419,14 +419,14 @@ If you utilize this research, procedural weight generation methodology, or inter
 }
 
 @article{dagli2026wormhole,
-  title        = {A Wormhole Error-Kernel with Tension, Blind-Spot and Seek Functions: A Conceptual Proposal and Exploratory Toy Simulation of the Black Hole Page Curve},
-  author       = {Da{\u{g}}l{\i}, Mert and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  title        = {Unitary Black Hole Page Curve Reconstruction via Wormhole Error-Kernel Invariants: Non-Dissipative State Preservation, 40-Core Bare-Metal Telemetry, and Formal Verification},
+  author       = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
   journal      = {Zenodo Open Science Archive},
   year         = {2026},
   month        = {September},
   doi          = {10.5281/zenodo.22978460},
   url          = {https://doi.org/10.5281/zenodo.22978460},
-  note         = {Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
+  note         = {Version 2.0; Concept DOI: 10.5281/zenodo.22961999; Supplementary Software: https://github.com/pCwOrM/mandelbrot-fractal-neural-synthesis and https://github.com/pCwOrM/werr}
 }
 
 @article{dagli2026lean4_oed,
