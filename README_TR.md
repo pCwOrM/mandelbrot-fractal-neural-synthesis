@@ -7,6 +7,7 @@
 [![Paper 4: Kara Delik Page Eğrisi DOI](https://img.shields.io/badge/Paper%204%20DOI-10.5281%2Fzenodo.22961999-024dad.svg)](https://doi.org/10.5281/zenodo.22961999)
 [![Paper 5: Lean 4 Formel Doğrulama DOI](https://img.shields.io/badge/Paper%205%20DOI-10.5281%2Fzenodo.22983889%20(v2)-9333ea.svg)](https://doi.org/10.5281/zenodo.22983889)
 [![Paper 6: Drosophila Tüm Beyin Konnektom DOI](https://img.shields.io/badge/Paper%206%20DOI-10.5281%2Fzenodo.22996626-024dad.svg)](https://doi.org/10.5281/zenodo.22996626)
+[![Paper 7: Werracle arXiv 2609.30719](https://img.shields.io/badge/arXiv-2609.30719%20%5Bcs.CR%5D-b31b1b.svg)](https://arxiv.org/abs/2609.30719)
 [![WerrSoma Portalı](https://img.shields.io/badge/WerrSoma%20Portalı-lexovian.pcworm.net-00f0ff.svg)](https://lexovian.pcworm.net/)
 [![WerrSoma GitHub](https://img.shields.io/badge/WerrSoma-Tüm%20Beyin%20158K%20Nöron-00f0ff.svg)](https://github.com/Lexovian/WerrSoma)
 [![Patent Başvurusu: TR 2026/016633](https://img.shields.io/badge/Patent%20Başvurusu-TR%202026%2F016633-red.svg)](https://doi.org/10.5281/zenodo.22996626)
@@ -33,6 +34,7 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 
 | Platform / Belge | Tür | Hedef Kitle | Doğrudan Canlı Bağlantı |
 | :--- | :--- | :--- | :--- |
+| ⚡ **Paper 7: Werracle On-Chain AI Refleks Oracle'ı** | Kuruş-Altı Blok-İçi EVM Karar Motoru & Flash-Loan Devre Kesici | DeFi Mimarları, Akıllı Kontrat Denetçileri & MEV Araştırmacıları | [**arXiv:2609.30719 [cs.CR, cs.AI, cs.DC]**](https://arxiv.org/abs/2609.30719) &bull; [**arXiv PDF**](https://arxiv.org/pdf/2609.30719) &bull; [**Zenodo: 10.5281/zenodo.22942598**](https://doi.org/10.5281/zenodo.22942598) &bull; [**Canlı EVM Simülatörü**](https://pcworm.github.io/werracle/) &bull; [**GitHub: pCwOrM/werracle**](https://github.com/pCwOrM/werracle) |
 | 🧬 **Paper 6: Biyo-Sentetik Nöromorfik Arayüz (WerrSoma)** | Tüm Beyin Drosophila Konnektomu (158 Bin Nöron) & Sıfır-Bellek Refleks Yayı | Nörobiyologlar, BCI Mühendisleri & Otonom Sistemler | [**Zenodo: 10.5281/zenodo.22996626**](https://doi.org/10.5281/zenodo.22996626) &bull; [**Canlı 3D Portal**](https://lexovian.pcworm.net/) &bull; [**FlyWire Konnektom Laboratuvarı**](https://lexovian.pcworm.net/neuramap_werr_3d.html) &bull; [**3D Uçuş Simülatörü**](https://lexovian.pcworm.net/fly_bioneural_flight_sim.html) &bull; [**GitHub: Lexovian/WerrSoma**](https://github.com/Lexovian/WerrSoma) &bull; **TÜRKPATENT Patent Başvurusu: TR 2026/016633** |
 | 📐 **GAP → Lean 4 Doğrulanmış Port** | Çekirdek Cebir Formalizasyonu | Hesaplamalı Cebirciler & Mantıkçılar | [**GitHub: pCwOrM/gap-lean4-port**](https://github.com/pCwOrM/gap-lean4-port) &bull; [**Tartışma: gap-system/gap#6613**](https://github.com/gap-system/gap/discussions/6613) &bull; [**Issue: opencompl/lean-gap#1**](https://github.com/opencompl/lean-gap/issues/1) &bull; **Görev GAP-0331 (0 sorry)** |
 | 📜 **Paper 5: Lean 4 Formel Doğrulama & 40-Çekirdek Gauntlet** | Formel Makine İspatları & Bare-Metal Gauntlet | Mantıkçılar, Web3 Mimarları & Çekirdek AI | [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Kayıt**](https://zenodo.org/records/22983889) &bull; [**Preprint PDF**](https://zenodo.org/records/22983889/files/Zero_Storage_Neural_Synthesis_Lean4_OED_v2.pdf) &bull; [**Replikasyon Paketi**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
@@ -47,7 +49,7 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 | 🏛️ **Paper 1: Fraktal Nöron Sentezi** | Dergi İncelemesinde | Açık Bilim | [**Zenodo: 10.5281/zenodo.22867037**](https://zenodo.org/records/22867037) &bull; *Chaos, Solitons & Fractals (Elsevier)* |
 | ⚡ **Kardeş Makale: WERR (Uç Triyaj)** | Uç Doğal Dil & Görsel İşleme | Küresel / Uygulamalı Yapay Zeka | [**Zenodo: 10.5281/zenodo.22939253**](https://doi.org/10.5281/zenodo.22939253) &bull; [**arXiv: 2609.25498**](https://arxiv.org/abs/2609.25498) &bull; [**GitHub: pCwOrM/werr**](https://github.com/pCwOrM/werr) |
 | 🧠 **Canlı İkili Bilişsel Platform (answerr)** | Üretim Platformu & API | Geliştiriciler & Son Kullanıcılar | [**answerr.me**](https://answerr.me) &bull; [**GitHub: pCwOrM/answerr**](https://github.com/pCwOrM/answerr) |
-| 🌐 **On-Chain AI Karar Oracle'ı (werracle)** | EVM 32-Bayt Slot Motoru | Blokzincir & DeFi Geliştiricileri | [**Canlı Simülatörü Aç**](https://pcworm.github.io/werracle/) &bull; [**GitHub: pCwOrM/werracle**](https://github.com/pCwOrM/werracle) |
+| 🌐 **On-Chain AI Karar Oracle'ı (werracle)** | EVM 32-Bayt Slot Motoru | Blokzincir & DeFi Geliştiricileri | [**arXiv:2609.30719 [cs.CR]**](https://arxiv.org/abs/2609.30719) &bull; [**Canlı Simülatörü Aç**](https://pcworm.github.io/werracle/) &bull; [**GitHub: pCwOrM/werracle**](https://github.com/pCwOrM/werracle) |
 | 🔬 **OED Simülasyon ve Deney Raporu** | Matematiksel Analiz & Kanıt | Araştırmacılar & Matematikçiler | [**Simülasyon Raporu (HTML)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/docs/simulation_report.html) &bull; [**PDF Rapor**](docs/OED_SIMULASYON_VE_DENEY_RAPORU.pdf) |
 
 ---
@@ -468,6 +470,19 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   doi          = {10.5281/zenodo.22996626},
   url          = {https://doi.org/10.5281/zenodo.22996626},
   note         = {158.169 nöron, 3.99M sinaps. Sub-4ms refleks gecikmesi, 0 VRAM. TÜRKPATENT Başvuru: TR 2026/016633. Canlı 3D Portal: https://lexovian.pcworm.net/}
+}
+
+@article{dagli2026werracle_arxiv,
+  title         = {Werracle: Sub-Cent Intra-Block AI Reflex Oracles and Flash-Loan Circuit Breakers for EVM Smart Contracts},
+  author        = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  journal       = {arXiv preprint arXiv:2609.30719 [cs.CR, cs.AI, cs.DC]},
+  year          = {2026},
+  eprint        = {2609.30719},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  doi           = {10.48550/arXiv.2609.30719},
+  url           = {https://arxiv.org/abs/2609.30719},
+  note          = {Zenodo Archive: 10.5281/zenodo.22942598; TÜRKPATENT Priority: TR 2026/016285}
 }
 ```
 
