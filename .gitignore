@@ -70,6 +70,17 @@ private_vault_phase3/
 _isolated_test_vault/
 _isolated_test_vault.*
 *.rar
+*.zip
 arxiv/*.tar.gz
 arxiv/*.zip
+
+# Private Grant & Rebuttal Benchmarks
+benchmark_sov_*.py
+generate_sov_*.py
+sov_amm_griefing_*.png
+
+# Submission Packages & Isolated Workspaces
+blackhole_v3_package/
+mdpi_fractalfract_package/
+goofy-pasteur/
 
