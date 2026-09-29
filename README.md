@@ -10,11 +10,12 @@
 [![WerrSoma GitHub](https://img.shields.io/badge/WerrSoma-Whole--Brain%20158K%20Neurons-00f0ff.svg)](https://github.com/Lexovian/WerrSoma)
 [![Patent Priority: TR 2026/016633](https://img.shields.io/badge/Patent%20Priority-TR%202026%2F016633-red.svg)](https://doi.org/10.5281/zenodo.22996626)
 [![Lean 4 Verified: 0 Sorry](https://img.shields.io/badge/Formal%20Verification-Lean%204%20(0%20Sorry)-brightgreen.svg)](https://doi.org/10.5281/zenodo.22983889)
-[![GAP to Lean 4: Verified Port](https://img.shields.io/badge/GAP%20to%20Lean%204-GAP--0331%20Verified-blue.svg?logo=lean)](https://github.com/pCwOrM/gap-lean4-port)
+[![GAP to Lean 4: Verified Port](https://img.shields.io/badge/GAP%20to%20Lean%204-v0.2.0%20(35%20Theorems)-blue.svg?logo=lean)](https://github.com/pCwOrM/gap-lean4-port)
 [![Patent Pending](https://img.shields.io/badge/Patent%20Pending-TR%202026%2F016285-red.svg)](https://epats.turkpatent.gov.tr)
 [![Paper 1: Zenodo Concept DOI](https://img.shields.io/badge/Paper%201%20DOI-10.5281%2Fzenodo.22774934-024dad.svg)](https://doi.org/10.5281/zenodo.22774934)
 [![Companion Paper: WERR](https://img.shields.io/badge/Companion%20Paper-WERR-8b5cf6.svg)](https://github.com/pCwOrM/werr)
 [![On-Chain AI Oracle: werracle](https://img.shields.io/badge/Web3%20Oracle-werracle-f59e0b.svg?logo=ethereum&logoColor=white)](https://github.com/pCwOrM/werracle)
+[![arXiv: 2609.33066](https://img.shields.io/badge/arXiv-2609.33066%20(Paper%205%20Lean4)-b31b1b.svg)](https://arxiv.org/abs/2609.33066)
 [![arXiv: 2609.30115](https://img.shields.io/badge/arXiv-2609.30115%20(OED)-b31b1b.svg)](https://arxiv.org/abs/2609.30115)
 [![arXiv: 2609.25498](https://img.shields.io/badge/arXiv-2609.25498%20(WERR)-b31b1b.svg)](https://arxiv.org/abs/2609.25498)
 [![arXiv: 2609.30719](https://img.shields.io/badge/arXiv-2609.30719%20(Werracle)-b31b1b.svg)](https://arxiv.org/abs/2609.30719)
@@ -37,8 +38,8 @@ Explore the procedural fractal neural synthesis paradigm directly inside your we
 | Platform / Document | Type | Target Audience | Direct Live Link |
 | :--- | :--- | :--- | :--- |
 | 🧬 **Paper 6: Bio-Synthetic Neuromorphic Interfacing (WerrSoma)** | Whole-Brain Drosophila Connectome (158K Neurons) & Zero-Memory Reflex Arc | Neurobiologists, BCI Engineers & Autonomous Systems | [**Zenodo: 10.5281/zenodo.22996626**](https://doi.org/10.5281/zenodo.22996626) &bull; [**Live 3D Portal**](https://lexovian.pcworm.net/) &bull; [**FlyWire Connectome Lab**](https://lexovian.pcworm.net/neuramap_werr_3d.html) &bull; [**3D Flight Sim**](https://lexovian.pcworm.net/fly_bioneural_flight_sim.html) &bull; [**GitHub: Lexovian/WerrSoma**](https://github.com/Lexovian/WerrSoma) &bull; **TÜRKPATENT Priority: TR 2026/016633** |
-| 📐 **GAP → Lean 4 Formally Verified Port** | Core Algebra Formalization | Computational Algebraists & Logicians | [**GitHub: pCwOrM/gap-lean4-port**](https://github.com/pCwOrM/gap-lean4-port) &bull; [**Discussion: gap-system/gap#6613**](https://github.com/gap-system/gap/discussions/6613) &bull; [**Issue: opencompl/lean-gap#1**](https://github.com/opencompl/lean-gap/issues/1) &bull; **Task GAP-0331 (0 sorry)** |
-| 📜 **Paper 5: Lean 4 Formal Verification & 40-Core Gauntlet** | Formal Machine Proofs & Bare-Metal Gauntlet | Logicians, Web3 Architects & Core AI | [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Record**](https://zenodo.org/records/22983889) &bull; [**Preprint PDF**](https://zenodo.org/records/22983889/files/Zero_Storage_Neural_Synthesis_Lean4_OED_v2.pdf) &bull; [**Replication Bundle**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
+| 📐 **GAP → Lean 4 Formally Verified Port** | Core Algebra & Computational Group Theory | Computational Algebraists & Logicians | [**GitHub: pCwOrM/gap-lean4-port**](https://github.com/pCwOrM/gap-lean4-port) &bull; [**Release: v0.2.0**](https://github.com/pCwOrM/gap-lean4-port/releases/tag/v0.2.0) &bull; [**Show & Tell: gap#6624**](https://github.com/gap-system/gap/discussions/6624) &bull; [**Discussion: gap#6613**](https://github.com/gap-system/gap/discussions/6613) &bull; **35 Theorems (0 sorry)** |
+| 📜 **Paper 5: Lean 4 Formal Verification & 40-Core Gauntlet** | Formal Machine Proofs & Bare-Metal Gauntlet | Logicians, Web3 Architects & Core AI | [**arXiv:2609.33066 [cs.AI, cs.LO]**](https://arxiv.org/abs/2609.33066) &bull; [**arXiv PDF**](https://arxiv.org/pdf/2609.33066) &bull; [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Replication Bundle**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
 | 🌌 **Paper 4: Black Hole Page Curve & Wormhole Error-Kernel** | Quantum Gravity & Thermodynamics | Physicists, Mathematicians & Open Science | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Concept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Documentation**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
 | 🏛️ **Paper 2: Orbital Error Dynamics (OED)** | Official Preprint & Patent | Global / AI & Physics | [**arXiv:2609.30115 [cs.NE]**](https://arxiv.org/abs/2609.30115) &bull; [**Zenodo: 10.5281/zenodo.22900465 (v3)**](https://doi.org/10.5281/zenodo.22900465) &bull; **Patent Pending: TR 2026/016285** |
 | ⚔️ **The Zero-VRAM Gauntlet** | Master Benchmark Wall | Researchers, Engineers & Challengers | [**Launch The Gauntlet (Benchmarks)**](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/benchmarks.html) |
@@ -442,12 +443,12 @@ If you utilize this research, procedural weight generation methodology, or inter
 @article{dagli2026lean4_oed,
   title        = {Zero-Storage Procedural Neural Synthesis via Boundary Dynamics: Formal Verification in Lean 4 and Bare-Metal Gauntlet Validation},
   author       = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
-  journal      = {Zenodo Open Science Archive},
+  journal      = {arXiv preprint arXiv:2609.33066 [cs.AI, cs.LO]},
   year         = {2026},
   month        = {September},
-  doi          = {10.5281/zenodo.22983889},
-  url          = {https://doi.org/10.5281/zenodo.22983889},
-  note         = {Version 2.0; Concept DOI: 10.5281/zenodo.22974543; Formally verified in Lean 4 (Mathlib4, 0 sorry). 40-core bare-metal gauntlet benchmark verified. TÜRKPATENT Priority: TR 2026/016285.}
+  doi          = {10.48550/arXiv.2609.33066},
+  url          = {https://arxiv.org/abs/2609.33066},
+  note         = {Zenodo Record: 10.5281/zenodo.22983889; Formally verified in Lean 4 (Mathlib4, 0 sorry). 40-core bare-metal gauntlet benchmark verified. TÜRKPATENT Priority: TR 2026/016285.}
 }
 
 @article{dagli2026werrsoma,
