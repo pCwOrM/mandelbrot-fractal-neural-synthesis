@@ -10,7 +10,7 @@
 [![arXiv: 2609.33066](https://img.shields.io/badge/arXiv-2609.33066%20(Lean4%20Formel)-b31b1b.svg)](https://arxiv.org/abs/2609.33066)
 [![Paper 6: Drosophila Tüm Beyin Konnektom DOI](https://img.shields.io/badge/Paper%206%20DOI-10.5281%2Fzenodo.22996626-024dad.svg)](https://doi.org/10.5281/zenodo.22996626)
 [![Paper 7: Werracle arXiv 2609.30719](https://img.shields.io/badge/arXiv-2609.30719%20(Werracle)-b31b1b.svg)](https://arxiv.org/abs/2609.30719)
-[![WerrSoma Portalı](https://img.shields.io/badge/WerrSoma%20Portalı-lexovian.pcworm.net-00f0ff.svg)](https://lexovian.pcworm.net/)
+[![WerrSoma Portalı](https://img.shields.io/badge/WerrSoma%20Portalı-werrsoma.answerr.me-00f0ff.svg)](https://werrsoma.answerr.me/)
 [![WerrSoma GitHub](https://img.shields.io/badge/WerrSoma-Tüm%20Beyin%20158K%20Nöron-00f0ff.svg)](https://github.com/Lexovian/WerrSoma)
 [![Patent Başvurusu: TR 2026/016633](https://img.shields.io/badge/Patent%20Başvurusu-TR%202026%2F016633-red.svg)](https://doi.org/10.5281/zenodo.22996626)
 [![Lean 4 Doğrulanmış: 0 Sorry](https://img.shields.io/badge/Formel%20Doğrulama-Lean%204%20(0%20Sorry)-brightgreen.svg)](https://doi.org/10.5281/zenodo.22983889)
@@ -37,7 +37,7 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 | Platform / Belge | Tür | Hedef Kitle | Doğrudan Canlı Bağlantı |
 | :--- | :--- | :--- | :--- |
 | ⚡ **Paper 7: Werracle On-Chain AI Refleks Oracle'ı** | Kuruş-Altı Blok-İçi EVM Karar Motoru & Flash-Loan Devre Kesici | DeFi Mimarları, Akıllı Kontrat Denetçileri & MEV Araştırmacıları | [**arXiv:2609.30719 [cs.CR, cs.AI, cs.DC]**](https://arxiv.org/abs/2609.30719) &bull; [**arXiv PDF**](https://arxiv.org/pdf/2609.30719) &bull; [**Zenodo: 10.5281/zenodo.22942598**](https://doi.org/10.5281/zenodo.22942598) &bull; [**Canlı EVM Simülatörü**](https://pcworm.github.io/werracle/) &bull; [**GitHub: pCwOrM/werracle**](https://github.com/pCwOrM/werracle) |
-| 🧬 **Paper 6: Biyo-Sentetik Nöromorfik Arayüz (WerrSoma)** | Tüm Beyin Drosophila Konnektomu (158 Bin Nöron) & Sıfır-Bellek Refleks Yayı | Nörobiyologlar, BCI Mühendisleri & Otonom Sistemler | [**Zenodo: 10.5281/zenodo.22996626**](https://doi.org/10.5281/zenodo.22996626) &bull; [**Canlı 3D Portal**](https://lexovian.pcworm.net/) &bull; [**FlyWire Konnektom Laboratuvarı**](https://lexovian.pcworm.net/neuramap_werr_3d.html) &bull; [**3D Uçuş Simülatörü**](https://lexovian.pcworm.net/fly_bioneural_flight_sim.html) &bull; [**GitHub: Lexovian/WerrSoma**](https://github.com/Lexovian/WerrSoma) &bull; **TÜRKPATENT Patent Başvurusu: TR 2026/016633** |
+| 🧬 **Paper 6: Biyo-Sentetik Nöromorfik Arayüz (WerrSoma)** | Tüm Beyin Drosophila Konnektomu (158 Bin Nöron) & Sıfır-Bellek Refleks Yayı | Nörobiyologlar, BCI Mühendisleri & Otonom Sistemler | [**Zenodo: 10.5281/zenodo.22996626**](https://doi.org/10.5281/zenodo.22996626) &bull; [**Canlı 3D Portal**](https://werrsoma.answerr.me/) &bull; [**FlyWire Konnektom Laboratuvarı**](https://werrsoma.answerr.me/neuramap_werr_3d.html) &bull; [**3D Uçuş Simülatörü**](https://werrsoma.answerr.me/fly_bioneural_flight_sim.html) &bull; [**GitHub: Lexovian/WerrSoma**](https://github.com/Lexovian/WerrSoma) &bull; **TÜRKPATENT Patent Başvurusu: TR 2026/016633** |
 | 📐 **GAP → Lean 4 Doğrulanmış Port** | Çekirdek Cebir & Hesaplamalı Grup Teorisi | Hesaplamalı Cebirciler & Mantıkçılar | [**GitHub: pCwOrM/gap-lean4-port**](https://github.com/pCwOrM/gap-lean4-port) &bull; [**Sürüm: v0.2.0**](https://github.com/pCwOrM/gap-lean4-port/releases/tag/v0.2.0) &bull; [**Show & Tell: gap#6624**](https://github.com/gap-system/gap/discussions/6624) &bull; [**Tartışma: gap#6613**](https://github.com/gap-system/gap/discussions/6613) &bull; **35 Teorem (0 sorry)** |
 | 📜 **Paper 5: Lean 4 Formel Doğrulama & 40-Çekirdek Gauntlet** | Formel Makine İspatları & Bare-Metal Gauntlet | Mantıkçılar, Web3 Mimarları & Çekirdek AI | [**arXiv:2609.33066 [cs.AI, cs.LO]**](https://arxiv.org/abs/2609.33066) &bull; [**arXiv PDF**](https://arxiv.org/pdf/2609.33066) &bull; [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Replikasyon Paketi**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
 | 🌌 **Paper 4: Kara Delik Page Eğrisi ve Solucan Deliği Hata Çekirdeği** | Kuantum Kütleçekimi & Termodinamik | Fizikçiler, Matematikçiler & Açık Bilim | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Konsept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Dokümantasyon**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
@@ -481,7 +481,7 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   month        = {September},
   doi          = {10.5281/zenodo.22996626},
   url          = {https://doi.org/10.5281/zenodo.22996626},
-  note         = {158.169 nöron, 3.99M sinaps. Sub-4ms refleks gecikmesi, 0 VRAM. TÜRKPATENT Başvuru: TR 2026/016633. Canlı 3D Portal: https://lexovian.pcworm.net/}
+  note         = {158.169 nöron, 3.99M sinaps. Sub-4ms refleks gecikmesi, 0 VRAM. TÜRKPATENT Başvuru: TR 2026/016633. Canlı 3D Portal: https://werrsoma.answerr.me/}
 }
 
 @article{dagli2026werracle_arxiv,
