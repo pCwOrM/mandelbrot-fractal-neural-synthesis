@@ -392,6 +392,16 @@ xdg-open demos/interactive_lab.html
 
 ---
 
+## 🤝 Topluluk, İş Birliği ve Standartlar
+
+* **Zulip Kanalı:** Gerçek zamanlı teknik tartışmalar için Zulip kanalımıza katılın: [solfunmeme.zulipchat.com](https://solfunmeme.zulipchat.com/) (Akışlar: `#general > greetings`, `#general > architecture`).
+* **Ortak Terminoloji Standardı:** Biçimsel doğrulama standardı için [Shared Terminology Guide v2](docs/SharedTerminologyGuide.md) (DuPont–Dağlı Şartnamesi).
+* **Basamak (Rung) 0–5 Doğrulama Defteri:** Chunks, anchors, pre/post/frame sözleşmeleri ve derece niteleyicileri [docs/RUNG_LEDGER.md](docs/RUNG_LEDGER.md) dosyasında belgelenmiştir.
+* **Dağıtık Mimari:** Çift motorlu Lean 4 + eBPF/Nix mimarisi [docs/GAP_LEAN4_ARCHITECTURE.md](docs/GAP_LEAN4_ARCHITECTURE.md) dosyasında yer almaktadır.
+* **Basamak 0–5 Doğrulama Köprüsü & İşçi Paketleri:** Otomatik köprü oluşturucu ([tools/bridge_generator.py](tools/bridge_generator.py)) ve konsolide tanık raporu ([tasks/bridge_witness_report.json](tasks/bridge_witness_report.json)), Mike DuPont'un [`lean-worker`](https://github.com/meta-introspector/lean-worker) ve [`aristotle-cli-rs`](https://github.com/meta-introspector/aristotle-cli-rs) araçları için anahtar teslim `harmonic.gap-worker-job/1` paketleri üretir.
+
+---
+
 ## 📖 Akademik Alıntılar (Citations)
 
 Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif laboratuvarları çalışmalarınızda kullanırsanız lütfen alıntılayınız:
@@ -485,6 +495,17 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   doi           = {10.48550/arXiv.2609.30719},
   url           = {https://arxiv.org/abs/2609.30719},
   note          = {Zenodo Archive: 10.5281/zenodo.22942598; TÜRKPATENT Priority: TR 2026/016285}
+}
+
+@software{dagli_2026_gap_lean4,
+  author       = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  title        = {{Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions}},
+  month        = sep,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v0.2.0},
+  doi          = {10.5281/zenodo.23045504},
+  url          = {https://doi.org/10.5281/zenodo.23045504}
 }
 ```
 

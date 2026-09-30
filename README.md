@@ -393,6 +393,16 @@ xdg-open demos/interactive_lab.html
 
 ---
 
+## 🤝 Community, Collaboration & Standards
+
+* **Zulip Channel:** Join real-time technical discussions on our Zulip realm at [solfunmeme.zulipchat.com](https://solfunmeme.zulipchat.com/) (Streams: `#general > greetings`, `#general > architecture`).
+* **Shared Terminology Standard:** Collaborative formal verification standard defined in [Shared Terminology Guide v2](docs/SharedTerminologyGuide.md) (DuPont–Dağlı Specification).
+* **Rung 0–5 Verification Ledger:** Formal accounting of chunks, anchors, pre/post/frame contracts, and degree qualifiers in [docs/RUNG_LEDGER.md](docs/RUNG_LEDGER.md).
+* **Distributed Architecture:** Dual-engine Lean 4 + eBPF/Nix architecture in [docs/GAP_LEAN4_ARCHITECTURE.md](docs/GAP_LEAN4_ARCHITECTURE.md).
+* **Rung 0–5 Verification Bridge & Worker Packets:** Automated bridge generator ([tools/bridge_generator.py](tools/bridge_generator.py)) and consolidated witness report ([tasks/bridge_witness_report.json](tasks/bridge_witness_report.json)) generating turnkey `harmonic.gap-worker-job/1` packets for Mike DuPont's [`lean-worker`](https://github.com/meta-introspector/lean-worker) and [`aristotle-cli-rs`](https://github.com/meta-introspector/aristotle-cli-rs).
+
+---
+
 ## 📖 Citations
 
 If you utilize this research, procedural weight generation methodology, or interactive visualizers, please cite our official publications:
@@ -460,6 +470,28 @@ If you utilize this research, procedural weight generation methodology, or inter
   doi          = {10.5281/zenodo.22996626},
   url          = {https://doi.org/10.5281/zenodo.22996626},
   note         = {158,169 neurons, 3.99M synapses. Sub-4ms latency, zero VRAM. TÜRKPATENT Priority: TR 2026/016633. Live 3D Portal: https://lexovian.pcworm.net/}
+}
+
+@article{dagli2026werracle,
+  title         = {Werracle: EVM 32-Byte Slot Engine & Flash-Loan Shield via Sub-Millisecond Fractal Boundary Arbitrage},
+  author        = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  journal       = {arXiv preprint arXiv:2609.30719 [cs.CR, cs.AI, cs.DC]},
+  year          = {2026},
+  month         = {September},
+  doi           = {10.48550/arXiv.2609.30719},
+  url           = {https://arxiv.org/abs/2609.30719},
+  note          = {Zenodo Record: 10.5281/zenodo.22942598; EVM slot proof validated.}
+}
+
+@software{dagli_2026_gap_lean4,
+  author       = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  title        = {{Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions}},
+  month        = sep,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v0.2.0},
+  doi          = {10.5281/zenodo.23045504},
+  url          = {https://doi.org/10.5281/zenodo.23045504}
 }
 ```
 
