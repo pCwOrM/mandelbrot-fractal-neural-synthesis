@@ -3,6 +3,7 @@
 [![Canlı Web Portalı](https://img.shields.io/badge/Canlı%20Portal-GitHub%20Pages-10b981.svg?logo=github)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/)
 [![İnteraktif Laboratuvarlar](https://img.shields.io/badge/İnteraktif%20Laboratuvarlar-%25100%20Tarayıcıda%20Çalışır-818cf8.svg)](https://pcworm.github.io/mandelbrot-fractal-neural-synthesis/#labsTitle)
 [![Paper 2: OED Zenodo DOI](https://img.shields.io/badge/Paper%202%20DOI-10.5281%2Fzenodo.22896856-024dad.svg)](https://doi.org/10.5281/zenodo.22896856)
+[![arXiv: 2609.38492](https://img.shields.io/badge/arXiv-2609.38492%20(GAP%20Lean4)-b31b1b.svg)](https://arxiv.org/abs/2609.38492)
 [![arXiv: 2609.30115](https://img.shields.io/badge/arXiv-2609.30115%20(OED)-b31b1b.svg)](https://arxiv.org/abs/2609.30115)
 [![arXiv: 2609.25498](https://img.shields.io/badge/arXiv-2609.25498%20(WERR)-b31b1b.svg)](https://arxiv.org/abs/2609.25498)
 [![Paper 4: Kara Delik Page Eğrisi DOI](https://img.shields.io/badge/Paper%204%20DOI-10.5281%2Fzenodo.22961999-024dad.svg)](https://doi.org/10.5281/zenodo.22961999)
@@ -38,7 +39,7 @@ Prosedürel fraktal yapay sinir ağı sentezi paradigmasını doğrudan web tara
 | :--- | :--- | :--- | :--- |
 | ⚡ **Paper 7: Werracle On-Chain AI Refleks Oracle'ı** | Kuruş-Altı Blok-İçi EVM Karar Motoru & Flash-Loan Devre Kesici | DeFi Mimarları, Akıllı Kontrat Denetçileri & MEV Araştırmacıları | [**arXiv:2609.30719 [cs.CR, cs.AI, cs.DC]**](https://arxiv.org/abs/2609.30719) &bull; [**arXiv PDF**](https://arxiv.org/pdf/2609.30719) &bull; [**Zenodo: 10.5281/zenodo.22942598**](https://doi.org/10.5281/zenodo.22942598) &bull; [**Canlı EVM Simülatörü**](https://pcworm.github.io/werracle/) &bull; [**GitHub: pCwOrM/werracle**](https://github.com/pCwOrM/werracle) |
 | 🧬 **Paper 6: Biyo-Sentetik Nöromorfik Arayüz (WerrSoma)** | Tüm Beyin Drosophila Konnektomu (158 Bin Nöron) & Sıfır-Bellek Refleks Yayı | Nörobiyologlar, BCI Mühendisleri & Otonom Sistemler | [**Zenodo: 10.5281/zenodo.22996626**](https://doi.org/10.5281/zenodo.22996626) &bull; [**Canlı 3D Portal**](https://werrsoma.answerr.me/) &bull; [**FlyWire Konnektom Laboratuvarı**](https://werrsoma.answerr.me/neuramap_werr_3d.html) &bull; [**3D Uçuş Simülatörü**](https://werrsoma.answerr.me/fly_bioneural_flight_sim.html) &bull; [**GitHub: Lexovian/WerrSoma**](https://github.com/Lexovian/WerrSoma) &bull; **TÜRKPATENT Patent Başvurusu: TR 2026/016633** |
-| 📐 **GAP → Lean 4 Doğrulanmış Port** | Çekirdek Cebir & Hesaplamalı Grup Teorisi | Hesaplamalı Cebirciler & Mantıkçılar | [**GitHub: pCwOrM/gap-lean4-port**](https://github.com/pCwOrM/gap-lean4-port) &bull; [**Sürüm: v0.2.0**](https://github.com/pCwOrM/gap-lean4-port/releases/tag/v0.2.0) &bull; [**Show & Tell: gap#6624**](https://github.com/gap-system/gap/discussions/6624) &bull; [**Tartışma: gap#6613**](https://github.com/gap-system/gap/discussions/6613) &bull; **35 Teorem (0 sorry)** |
+| 📐 **GAP → Lean 4 Doğrulanmış Port** | Çekirdek Cebir & Hesaplamalı Grup Teorisi | Hesaplamalı Cebirciler & Mantıkçılar | [**arXiv:2609.38492 [cs.LO]**](https://arxiv.org/abs/2609.38492) &bull; [**Zenodo: 10.5281/zenodo.23045504**](https://doi.org/10.5281/zenodo.23045504) &bull; [**GitHub: pCwOrM/gap-lean4-port**](https://github.com/pCwOrM/gap-lean4-port) &bull; [**Sürüm: v0.2.0**](https://github.com/pCwOrM/gap-lean4-port/releases/tag/v0.2.0) &bull; [**Show & Tell: gap#6624**](https://github.com/gap-system/gap/discussions/6624) &bull; [**Tartışma: gap#6613**](https://github.com/gap-system/gap/discussions/6613) &bull; **35 Teorem (0 sorry)** |
 | 📜 **Paper 5: Lean 4 Formel Doğrulama & 40-Çekirdek Gauntlet** | Formel Makine İspatları & Bare-Metal Gauntlet | Mantıkçılar, Web3 Mimarları & Çekirdek AI | [**arXiv:2609.33066 [cs.AI, cs.LO]**](https://arxiv.org/abs/2609.33066) &bull; [**arXiv PDF**](https://arxiv.org/pdf/2609.33066) &bull; [**Zenodo: 10.5281/zenodo.22983889 (v2)**](https://doi.org/10.5281/zenodo.22983889) &bull; [**Replikasyon Paketi**](https://zenodo.org/records/22983889/files/zenodo_bundle_lean4_oed_verification_v2.zip) |
 | 🌌 **Paper 4: Kara Delik Page Eğrisi ve Solucan Deliği Hata Çekirdeği** | Kuantum Kütleçekimi & Termodinamik | Fizikçiler, Matematikçiler & Açık Bilim | [**Zenodo: 10.5281/zenodo.22978460 (v2)**](https://zenodo.org/records/22978460) &bull; [**Konsept DOI: 10.5281/zenodo.22961999**](https://doi.org/10.5281/zenodo.22961999) &bull; [**Dokümantasyon**](docs/BLACKHOLE_PAGE_CURVE_WORMHOLE_RESEARCH_TR.md) &bull; [**Preprint PDF**](https://zenodo.org/records/22978460/files/Dagli_2026_Wormhole_Error-Kernel_Page_Curve_preprint_v2.pdf/content) |
 | 🏛️ **Paper 2: Yörünge Hata Dinamikleri (OED)** | Resmi Ön Baskı & Patent | Küresel / Yapay Zeka & Fizik | [**arXiv:2609.30115 [cs.NE]**](https://arxiv.org/abs/2609.30115) &bull; [**Zenodo: 10.5281/zenodo.22900465 (v3)**](https://doi.org/10.5281/zenodo.22900465) &bull; **Patent No: TR 2026/016285** |
@@ -495,6 +496,20 @@ Bu araştırmayı, prosedürel ağırlık üretim yöntemini veya interaktif lab
   doi           = {10.48550/arXiv.2609.30719},
   url           = {https://arxiv.org/abs/2609.30719},
   note          = {Zenodo Archive: 10.5281/zenodo.22942598; TÜRKPATENT Priority: TR 2026/016285}
+}
+
+@article{dagli2026gap_lean4_arxiv,
+  author       = {Da{\u{g}}l{\i}, Volkan and Da{\u{g}}l{\i}, Zerrin and Da{\u{g}}l{\i}, Da{\u{g}}han},
+  title        = {{Machine-Checked Computational Group Theory in Lean 4: Operational Schreier-Sims Stabilizer Chains, BSGS Sifting, and Backtrack Ordered Partitions}},
+  journal      = {arXiv preprint arXiv:2609.38492 [cs.LO]},
+  year         = {2026},
+  month        = sep,
+  eprint       = {2609.38492},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LO},
+  doi          = {10.48550/arXiv.2609.38492},
+  url          = {https://arxiv.org/abs/2609.38492},
+  note         = {Zenodo DOI: 10.5281/zenodo.23045504; Lean 4 Mathlib4 formel ispatları (0 sorry, 0 admit).}
 }
 
 @software{dagli_2026_gap_lean4,
